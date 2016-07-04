@@ -1951,6 +1951,14 @@ LATEST Update: 04.07.2016
 /* --- AIF Recipe titles --- */
 .prodUX15 .col-md-2 .recipe h2,.prodUX15 .col-md-2 .recipe h3,.prodUX15 .col-md-2 .recipe h4 {font-size: 1.75em}
 @media screen and (max-width: 550px) {.prodUX15 .dlp.hero.static.w880.centred.alt.mob-hide.panel .copy .mnsText1 {color:#FFF!important}.prodUX15 .hero.sans.hub .copy h1 {font-size:4em}}
+/* --- AIF Content anchored to bottom of block 04-07-16 --- */
+.prodUX15 .col-md-2-text-left .anchor-bottom,.prodUX15 .col-md-2-text-right .anchor-bottom {display: block;position: relative;max-height: 590px;overflow:hidden;height: 30px;padding-bottom: 80%;padding-top: 20%;}
+.prodUX15 .col-md-2-text-left .anchor-bottom div,.prodUX15 .col-md-2-text-right .anchor-bottom div {position: absolute;bottom: -2px;display: block;top: auto;padding: 0 0 0 5%;}
+.prodUX15 .col-md-2-text-left .anchor-bottom div div,.prodUX15 .col-md-2-text-right .anchor-bottom div div {position: relative;padding: 0 1%;margin: 0;}
+@media screen and (max-width:550px) {.prodUX15 .col-md-2-text-left .anchor-bottom div, .prodUX15 .col-md-2-text-right .anchor-bottom div {padding-left:1%;position: relative;}
+.prodUX15 .col-md-2-text-left .anchor-bottom, .prodUX15 .col-md-2-text-right .anchor-bottom {height:200px;padding-bottom:185%;padding-top:2%;}
+.prodUX15 .col-md-2-text-left .anchor-bottom div, .prodUX15 .col-md-2-text-right .anchor-bottom div div {padding-bottom: 2%}
+}
 
 /* --- FIX For tablet display 17-05-16 --- */
 /*! --- From MCP injected css */
