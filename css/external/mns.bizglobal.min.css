@@ -12,6 +12,8 @@ LATEST Update: 18.07.2016
 
 .category .wrap {color: #333333; font-size: 1em; margin: 0 auto; max-width: 120em; width: 100%}
 .prodUX15 * img {display:block;height:auto;max-height:initial;width:100%}
+.category.lazyimgload .prodUX15 * img {height:auto!important;width: 100%!important}
+.category.lazyimgload .prodUX15 img.lazy.loader {height:auto!important;width:auto!important}
 .prodUX15 *,  .prodUX15  *:before, .prodUX15 *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-weight:normal}
 .prodUX15.wrap {color:#333333;font-size:1em;margin:0 auto;max-width: 120em;width:100%}
 .prodUX15 a {color:#333333;text-decoration:underline}
@@ -231,7 +233,7 @@ LATEST Update: 18.07.2016
 .prodUX15 .row.clearfix.height4em.col2LrgImgTxt.extend .centre-content h2 {font-size: 2.8em}
 
 /* --- Mosaic list items img text 04-11-15 ---*/
-.prodUX15 .mosaic .mosaic-list img {float: left;margin-right: 3%;width: 20%}
+.prodUX15 .mosaic .mosaic-list img {float: left;margin-right: 3%;width: 20%!important}
 .prodUX15 .mosaic .mosaic-list h3 {font-size: 1.8em; line-height:1.2}
 .prodUX15 .mosaic .mosaic-list .textblock h2 {font-size: 3em;padding-top: .55em}
 .prodUX15 .mosaic .mosaic-list .copy {font-size:0.95em;margin-bottom: 4.6em}
@@ -1941,6 +1943,10 @@ LATEST Update: 18.07.2016
 .prodUX15 .store-list .store dl dt {display: none;height: 0}
 .prodUX15 .store-list .store:first-of-type dl dt {clear: both;display: block;padding: 2em 0}
 .prodUX15 .store-list .store dl:nth-child(2) {padding: 0 10% 0 0;width: 40%}
+/* --- store listing 2 columns 19-07-16 --- */
+.prodUX15 .col-md-2-text-only .store-list dl:first-child {width: 35%;padding-right: 5%;}
+.prodUX15 .col-md-2-text-only .store-list dl:last-child {width: 55%;padding-right: 5%;}
+.prodUX15 .col-md-2-text-only .store-list dl {text-align: left;}
 
 @media screen and (max-width:767px) {.prodUX15 .store-list .store dl {width: 100%}
 .prodUX15 .store-list .store:first-of-type dl dt, .prodUX15 .store-list .store dl dt {display: block;padding: 1.2em 0}
