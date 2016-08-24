@@ -1309,7 +1309,7 @@ LATEST Update: 24.08.2016
 .prodUX15 .col-md-4-3 .row.clearfix.height4em.fw.table .col-md-4-table-double .textblock,
 .prodUX15 .col-md-4-3 .row.clearfix.height4em.fw.table .col-md-4-table-double .col-md-2,
 .prodUX15 .col-md-4-3 [class^="col-md-4-table"] .textblock,
-.prodUX15 .col-md-4-3 .row.clearfix.height4em.fw.table .col-md-2:first-child .textblock {height: 34.5em;max-width:340px;/* - Added 24-02-16 - */max-height: 30em}
+.prodUX15 .col-md-4-3 .row.clearfix.height4em.fw.table .col-md-2:first-child .textblock {height: 100%;max-width:340px;/* - Added 24-02-16 - */max-height: 30em}
 .prodUX15 .col-md-4-3 .row.clearfix.height4em.fw.table .col-md-4-table .textblock {height: 29.5em}
 .prodUX15 .col-md-4-3 .row.clearfix.height4em.fw.table .col-md-4-table {width:100%}
 .prodUX15 .col-md-4-3 [class^="col-md-4-table"] .textblock {max-width:480px}
@@ -1443,7 +1443,7 @@ LATEST Update: 24.08.2016
 /* --- Mosaic 2--- */
 .prodUX15 .row.mosaic2 [class^="col-md-"], .prodUX15 .row.mosaic2 .imgblock, .prodUX15 .row.mosaic2 .textblock,  .prodUX15 .row.mosaic2 .col-md-3-2 + .col-md-3, .prodUX15 .row.mosaic2 .col-md-3 {width: 100%;float: none;max-width: 55em;margin: 0;padding: 0}
 
-/* --- 24-08-26 --- */ .prodUX15 .mosaic.img6 .col-md-3 .imgblock {width: 50%;float: left}
+/* --- 24-08-26 --- */ /* .prodUX15 .mosaic.img6 .col-md-3 .imgblock {width: 50%;float: left} */
 
 .prodUX15 .row.mosaic2 .col-md-3-2 .col-md-1 + .col-md-2 {display: table-header-group}
 .prodUX15 .row.mosaic2 .col-md-3-2 .col-md-1 + .col-md-2 + .col-md-2 {display: table-header-group}
@@ -2142,6 +2142,18 @@ header.mcp ~ div .prodUX15 .col-md-4-3 .dlp.hero.static.w880.centred.alt.btm .co
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:first-child img + h2, .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:first-child img + h3 {border-top:0}
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] .col-md-1 {font-size: 0.8em;margin: 30px 0 20px;max-width: 600px}
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2 > h2,.prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2:nth-child(2) > div > h2,.prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2 > h3,.prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2:nth-child(2) > div > h3 {padding: 1.5em 0 .3em}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list img {width: 29.5% ! important;}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list .copy p {padding-left: 34%;}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list .copy a {line-height: 2.2;}
+.prodUX15 .mosaic .mosaic-list .copy:last-of-type {margin-bottom: 0}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .row.clearfix.height2em.mosaic.img6 {display: inline;}
+.prodUX15 .module__5-image-square--1-tall-video--top3 div.col-md-3:nth-child(1) > div {border-bottom: 0px none;border-image-slice: 120 120 120 120;border-image-source: url("//asset2.cxnmarksandspencer.com/is/image/mands/e013b1067385feba4f3f9dfef3562ec92014ba32?$editorial_1200x4$");border-top-style: solid;border-top-width: 4px;font-size: 0.5em;padding: 6em 1em 8em;text-align: center}
+.prodUX15 .module__5-image-square--1-tall-video--top3 div.col-md-3:nth-child(1) > div a {display: inline-block;font-size: 2.134em;padding-top: 0.5em}
+.prodUX15 .module__5-image-square--1-tall-video--top3 div.col-md-3:nth-child(1) > div h2 {font-family: mns-london-bold}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3 .cutout .copy {bottom: 10%;position: absolute;text-align: center;width: 100%}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3 .cutout .copy a {font-size: 1.8em;line-height: 0;text-decoration: none}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3 .cutout .copy a:after {background: url("//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?fmt=png-alpha&wid=20") no-repeat scroll center 6px transparent;content: "";display: inline-block;height: 25px;width: 21px}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list .copy:last-of-type {margin-bottom: 0;}
 @media screen and (max-width: 800px) {
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] .col-md-2 {margin-bottom:20px;width: 100%}
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] .col-sm-2.col-md-2 {float: left;padding:0 8px;width: 50%}
@@ -2149,7 +2161,7 @@ header.mcp ~ div .prodUX15 .col-md-4-3 .dlp.hero.static.w880.centred.alt.btm .co
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:nth-child(2) .col-md-1 + .col-sm-2 + .col-sm-2 {padding: 0 0 0 8px;}
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:nth-child(2) > .col-sm-2:nth-child(odd) {padding-left: 0}
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:nth-child(2) > .col-sm-2:nth-child(even) {padding-right: 0}
-.prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 {-ms-box-orient: horizontal;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -moz-flex;display: -webkit-flex;display: flex;flex-direction: column}
+.prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 {-ms-box-orient: horizontal;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -moz-flex;display: -webkit-flex;display: flex;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction: column;flex-direction:column;}
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 img {order:1}
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 > div {order:2;display:block}
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 > div h2,
@@ -2158,6 +2170,12 @@ header.mcp ~ div .prodUX15 .col-md-4-3 .dlp.hero.static.w880.centred.alt.btm .co
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 {border-bottom-width: 4px;border-top-width: 4px;border-image-source: url(//asset2.cxnmarksandspencer.com/is/image/mands/e013b1067385feba4f3f9dfef3562ec92014ba32?$editorial_1200x4$);border-image-slice: 120;border-bottom-style: solid;border-top-style: solid;padding:0}
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 .col-md-2:nth-child(2) > img {border-bottom-style:none;border-bottom-width:0}
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 .col-md-2:nth-child(2) > div > p:nth-child(2) {padding:20px}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3 {width: 100%;max-width:600px}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3:first-of-type div,.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3:first-of-type img {width: 50%;float:left}
+.prodUX15 .module__5-image-square--1-tall-video--top3  .mosaic .mosaic-list img {padding-bottom:10px;width:15%!important}
+.prodUX15 .module__5-image-square--1-tall-video--top3  .mosaic .mosaic-list .copy p {padding-bottom:10px;padding-left: 0%}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list .copy {padding-left: 20%}
+.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3:nth-child(2) {margin-top: 3em;}
 }
 
 /* --- Flowers & Gifts A/B test 17-08-16 --- */.mega-trigger.content-loaded:nth-of-type(11), #SC_1-1372.mega-inner {display:none!important}
