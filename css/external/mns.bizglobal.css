@@ -13166,6 +13166,10 @@ div.contact-us-landing .g12:last-child {
     .prodUX15 .no__gutter [class^="col-md-"] {
         outline: none
     }
+    .prodUX15 .no__gutter [class^="col-md-"]:nth-child(odd), 
+    .prodUX15 .no__gutter [class^="col-md-"]:nth-child(even) {
+        padding: 0 0 1em;
+}
     .prodUX15 .no__gutter .col-md-2 .col-md-1 ~ .col-md-2 {
         clear: none;
         float: left;
@@ -17491,7 +17495,8 @@ div.contact-us-landing .g12:last-child {
      height: auto;
      margin: 0 .45em;
      max-height: none;
-     width: 95%
+     width: 96%;
+     padding: .334em 0;
 }
 
 .prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link.cta-bottom .copy a {
@@ -17533,5 +17538,5 @@ div.contact-us-landing .g12:last-child {
 }
 
 .prodUX15 .no__gutter [class^="col-sm-"] {
-    padding: 0;
+    padding: 0
 }
