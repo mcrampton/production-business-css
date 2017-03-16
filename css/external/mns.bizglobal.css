@@ -13050,7 +13050,7 @@ div.contact-us-landing .g12:last-child {
     width: 100%
 }
 
-.prodUX15 .no__gutter [class^="col-md-"] .tile__style-reveal-link .copy {
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link .copy {
     background: #4F5C6D;
     clear: both;
     font-size: 1.2em;
@@ -13060,18 +13060,18 @@ div.contact-us-landing .g12:last-child {
     width: 100%
 }
 
-.prodUX15 .no__gutter [class^="col-md-"] .tile__style-reveal-link .copy p {
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link .copy p {
     margin-bottom: 0px
 }
 
-.prodUX15 .no__gutter [class^="col-md-"] .tile__style-reveal-link .copy a {
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link .copy a {
     color: #FFFFFF;
     display: block;
     line-height: 2;
     text-decoration: none
 }
 
-.prodUX15 .no__gutter [class^="col-md-"] .tile__style-reveal-link .copy a:after {
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link .copy a:after {
     background: url("//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?fmt=png-alpha&wid=15&op_invert=1") no-repeat scroll 5px 1px transparent;
     content: "";
     display: inline-block;
@@ -13092,7 +13092,7 @@ div.contact-us-landing .g12:last-child {
     width: 100%
 }
 
-.prodUX15 .no__gutter [class^="col-md-"] .imgblock.text-overlay .copy a {
+.prodUX15 .no__gutter [class*="col-md-"] .imgblock.text-overlay .copy a {
     color: #FFFFFF;
     font-family: mns-london-bold, sans-serif;
     text-decoration: none;
@@ -17480,6 +17480,26 @@ div.contact-us-landing .g12:last-child {
 
 .prodUX15 .fw.hero.sml.center.no__img--mobile .copy h1.hero__title--medium {
     font-size: 7em;
+}
+
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link.cta-bottom {
+     display: block
+}
+
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link.cta-bottom .copy {
+     background: #EFEFEF;
+     height: auto;
+     margin: 0 .45em;
+     max-height: none;
+     width: 95%
+}
+
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link.cta-bottom .copy a {
+     color: #000000;
+     letter-spacing: 1px
+}
+.prodUX15 .no__gutter [class*="col-md-"] .tile__style-reveal-link.cta-bottom .copy a:after {
+    background: url("//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?fmt=png-alpha&wid=15&op_invert=0") no-repeat scroll 5px 1px rgba(0, 0, 0, 0)
 }
 
 @media screen and (max-width:1023px) {
