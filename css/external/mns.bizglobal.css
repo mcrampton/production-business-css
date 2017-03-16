@@ -1,7 +1,7 @@
 /* ---   
-LATEST Update: 13.03.2017
+LATEST Update: 16.03.2017
 
-- Last backup: R:\Production_2014\Stylesheet Backups\2016-17\mns.bizglobal.min-backups\20170313
+- Last backup: R:\Production_2014\Stylesheet Backups\2016-17\mns.bizglobal.min-backups\20170316
 
 ---- */
 
@@ -250,6 +250,29 @@ LATEST Update: 13.03.2017
 }
 
 
+/*! ---Contact by phone ---!*/
+
+.contactByPhone tr td:first-child {
+    width: 80%
+}
+
+.contactByPhone tr td {
+    width: 20%
+}
+
+.contactByPhone table tr {
+    border: none
+}
+
+.contactByPhone p {
+    font-size: 1.4em
+}
+
+.contactByPhone .description-text-medium {
+    font-size: 2em
+}
+
+
 /*! ---Social Media Footer link hover colors ---!*/
 
 .link.wf-icon.wf-icon-facebook:hover {
@@ -324,6 +347,14 @@ LATEST Update: 13.03.2017
 
 .touch .category .M080 .overlayed .copy p {
     width: 100%
+}
+
+
+/*! ---Update gift wrap button at checkout 28-02-2014 ---!*/
+
+.actions .gift-options {
+    color: #FFF;
+    background: url(//asset1.marksandspencer.com/is/image/mands/44a90ab0da0dd77d6b6f70c05702b0ee37a0e1d5) 3% 48% no-repeat #000!important
 }
 
 
@@ -436,7 +467,12 @@ LATEST Update: 13.03.2017
 }
 
 .ghost-button,
-.prodUX15 [class*="hp-button-"] {
+.prodUX15 a.hp-button-blknr-ghost.btnstyle,
+[class^="hp-button-"],
+[class^="hp-button-"]:active,
+[class^="hp-button-"]:hover,
+[class^="hp-button-"]:visited,
+.prodUX15 a.hp-button-whitenr-ghost.btnstyle.mnsText1 {
     text-decoration: none
 }
 
@@ -632,6 +668,7 @@ LATEST Update: 13.03.2017
     text-shadow: none
 }
 
+.overlayTopLeft,
 
 /*! ---Home Carousel Style Top left no overlay ---!*/
 
@@ -661,7 +698,6 @@ LATEST Update: 13.03.2017
     padding-bottom: .5em
 }
 
-
 /*! ---Home Carousel Style Top left white overlay ---!*/
 
 .latestModule .edi-panel.hero-style .call-to-action,
@@ -685,7 +721,7 @@ LATEST Update: 13.03.2017
 }
 
 
-/*! --- Hotspot issue fix width set auto from 65em --- */
+/*! --- Hotspot issue fix width set auto from 65em ---*/
 
 .overlayTopLeft.white h1 {
     color: #FFF;
@@ -1062,6 +1098,15 @@ LATEST Update: 13.03.2017
     right: 4em
 }
 
+
+/*! ---Homepage carousel old height 600px Override Fix 14-07-14 ---!*/
+
+.homepage .heroslideshow,
+.homepage .heroslideshow .latestModule {
+    height: 60em
+}
+
+
 /*! ---Homepage CTA updates 15-07-14 --- */
 
 body.homepage .overlayTopLeft .call-to-action {
@@ -1180,20 +1225,6 @@ body.homepage .overlayTopLeft .call-to-action {
 }
 
 
-/*! ---Amended width and max with on 14/08/2015 by Kofi Darko ---!*/
-
-.homeLegoPanels .box.g6 {
-    width: 25%;
-    max-width: 30em
-}
-
-.homeLegoPanels .box.g12 {
-    width: 50%;
-    height: 30em;
-    max-width: 60em
-}
-
-
 /*! ---Error page button ---!*/
 
 .unexpected-error .lpHeroH600+.back-link {
@@ -1230,14 +1261,14 @@ dl.price .collectInStore {
 }
 
 
-/*! --- RED Text for offers and sales --- */
+/*! ---RED Text for offers and sales ---!*/
 
 .promoRed {
     color: #c4201d
 }
 
 
-/*! --- 03/11/14 Footer fix for h2 title removal --- */
+/*! --- 03/11/14 Footer fix for h2 title removal ---!*/
 
 .footer-navigation .site-wide-nav li.title {
     color: #222;
@@ -1247,7 +1278,7 @@ dl.price .collectInStore {
 }
 
 
-/*! --- Reset spacing and align --- */
+/*! ---Reset spacing and align ---!*/
 
 .footer-toolbar .social-media-links .wf-icon-twitter {
     top: -1px;
@@ -1255,7 +1286,7 @@ dl.price .collectInStore {
 }
 
 
-/*! --- Fixes oversized Twitter icon on IE9 ---!*/
+/*! ---Fixes oversized Twitter icon on IE9 ---!*/
 
 .ie9 .footer-toolbar .social-media-links .wf-icon-twitter:before {
     font-size: 27px
@@ -1488,6 +1519,7 @@ dl.price .collectInStore {
 
 .noOverlayMidCentre .call-to-action .noOverlayMidCentreWhite .call-to-action,
 .noOverlayMidCentreWhite .call-to-action {
+    ;
     font-size: 1.8em;
     padding-right: 2em
 }
@@ -1508,15 +1540,15 @@ dl.price .collectInStore {
     margin-top: 1em
 }
 
+
+/*! ---T.RAM 27.01.15 HOMEPAGE BLOCK - GHOST BUTTONS  ---!*/
+
 .ghost-button,
 [class^="hp-button-"] {
     display: inline-block;
     outline: 0;
     text-align: center
 }
-
-
-/*! ---T.RAM 27.01.15 HOMEPAGE BLOCK - GHOST BUTTONS  ---!*/
 
 .ghost-button {
     padding: 8px;
@@ -1621,6 +1653,93 @@ dl.price .collectInStore {
     margin-bottom: 1em;
     padding-top: 1em
 }
+
+.contact-us-landing .g8-sub-border,
+.contact-us-landing .main-links {
+    border-right: 0
+}
+
+.contact-us-landing .main-links p,
+.contact-us-landing h2 {
+    color: #000;
+    line-height: normal
+}
+
+.contact-us-landing .main-links .primary-btn.submit.disabled,
+.contact-us-landing .main-links input.primary-btn {
+    background: #000;
+    border: 0;
+    color: #FFF;
+    filter: none;
+    text-transform: uppercase
+}
+
+.uniqueCtrl.contact-button-black {
+    display: block;
+    margin-bottom: 1em
+}
+
+.uniqueCtrl.contact-button-black a {
+    background: #000;
+    border: 0;
+    color: #FFF!important;
+    font-size: 1em;
+    line-height: 2;
+    padding: .8em
+}
+
+.primary-btn.black.contact.submit.disabled {
+    background: #000;
+    color: #FFF;
+    text-transform: uppercase
+}
+
+div.contact-us-landing .g12:last-child {
+    border-top: 0
+}
+
+.uniqueCtrl.contact-button-black a:hover {
+    text-decoration: underline
+}
+
+.contact-us-landing .quick-links .icon-heading-account {
+    background: url(//asset1.marksandspencer.com/is/image/mands/91282de105e8f5af134a50038da15d95dd89a2d9) 24px 0 no-repeat
+}
+
+.contact-us-landing .quick-links .icon-heading-email {
+    background: url(//asset1.marksandspencer.com/is/image/mands/5a4a25610f69c50fc70d45ec659d01397452ea1f) 24px 4px no-repeat;
+    line-height: 2
+}
+
+.contact-us-landing .icon-heading-post {
+    background: url(//asset1.marksandspencer.com/is/image/mands/617acad49e675f462c561826a0a398d06176e210) no-repeat
+}
+
+.contact-us-landing .icon-heading-fax {
+    background: url(//asset1.marksandspencer.com/is/image/mands/b9cdb8229dfbb1b33e5ce31b46e3702e4274210e) no-repeat
+}
+
+.contact-us-landing .main-links .styled-select,
+.contact-us-landing .main-links .styled-select select optgroup,
+.contact-us-landing .main-links .styled-select select option,
+.contact-us-landing .main-links select,
+.contact-us-landing .styled-select-wrapper .select-value {
+    color: #000
+}
+
+.contact-us-landing .sub-copytext {
+    color: #000;
+    font-size: 1.4em
+}
+
+.contact-us-landing .main-links .styled-select {
+    border-color: #000
+}
+
+.contact-us-landing .description-text-medium {
+    font-size: 3.1em
+}
+
 
 /*! ---Richtext cta decriptor 03-2-15 ---!*/
 
@@ -1786,6 +1905,10 @@ dl.price .collectInStore {
 .prodUX15 .dlp.hero.static.w880.left.centred.sans-serif.headline-body.largeheader h2,
 .prodUX15 .dlp.hero.static.w880.sans h1,
 .prodUX15 .dlp.hero.static.w880.sans h2,
+
+/*.prodUX15 .hero.sans.hub .copy h1,
+.prodUX15 .hero.hub .copy h1 span,*/
+
 .prodUX15 .hero.sans .copy h1,
 .prodUX15 .hero.sans .copy h2,
 .prodUX15 .hero.sans .copy h3,
@@ -1813,6 +1936,9 @@ dl.price .collectInStore {
 .prodUX15 .centre-content.quote h2,
 .prodUX15 .centre-content.quote h3,
 .prodUX15 .centre-content.quote h4,
+
+/*.prodUX15 .food-hub-tile .copy h3,*/
+
 .prodUX15 .campaign-form input[type="text"],
 .prodUX15 .campaign-form input[type="email"],
 .prodUX15 .campaign-form select,
@@ -1921,6 +2047,10 @@ dl.price .collectInStore {
 .prodUX15 .hero.hub .copy h1 span,
 .prodUX15 .food-hub-tile .copy h3 {
     font-family: "mns-london-light", sans-serif
+}
+
+.prodUX15 h1 {
+    line-height: 1
 }
 
 .prodUX15 .col-md-2 .overlay .copy h2,
@@ -2277,6 +2407,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .mosaic .col-md-3:nth-child(2) .textblock {
+    /*border-top: 0 none;*/
     margin-bottom: 5.5%;
     margin-top: 14%
 }
@@ -2295,6 +2426,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .mosaic .imgblock.text-overlay .copy {
+    /*height: 100%;*/
     left: 0;
     margin: 0;
     padding: 0;
@@ -2551,6 +2683,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .row.clearfix.height4em.col2LrgImgTxt.extend [class^="col-md-2-text-"] .centre-content ol {
+    /*counter-reset: item;*/
     margin-left: 0;
     padding-left: 0
 }
@@ -2982,9 +3115,9 @@ dl.price .collectInStore {
 
 /* --- Hero FW static white --- */
 
-.prodUX15 .fw.hero.static.white h1,
-.prodUX15 .fw.hero.static.white p,
-.prodUX15 .fw.hero.static.white a {
+.fw.hero.static.white h1,
+.fw.hero.static.white p,
+.fw.hero.static.white a {
     color: #FFFFFF
 }
 
@@ -3567,6 +3700,12 @@ dl.price .collectInStore {
     border: 0 none
 }
 
+.prodUX15 .row.clearfix.height2em.col2LrgImgTxt.nodivider .col-md-2-text-left .centre-content,
+.prodUX15 .row.clearfix.height4em.col2LrgImgTxt.nodivider .col-md-2-text-left .centre-content {
+    /*vertical-align: top*/
+}
+
+
 /* --- 3 column mosaic --- */
 
 .prodUX15 .col-md-3 .col-md-1 {
@@ -3746,7 +3885,7 @@ dl.price .collectInStore {
 .prodUX15 .textblock h4 {
     font-size: 1.8em;
     line-height: 1.222;
-    margin: 0 0 .5em;
+    margin: 0 0 .7em;
     text-align: center
 }
 
@@ -3897,7 +4036,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .row.clearfix.height4em.fw.table .col-md-2:first-child .textblock {
-    max-height: 28.9em
+    max-height: /*28.9em*/ 29.2em
 }
 
 .prodUX15 [class^="col-md-4-table"] .textblock.h30 {
@@ -4042,15 +4181,18 @@ dl.price .collectInStore {
 
 .prodUX15 .row.fw.table.no-outline.mobile-invert .textblock {
     background: #000;
-    color: #FFF
+    color: #FFF;
+    max-height: 29.2em
 }
-
+.prodUX15 .row.clearfix.height4em.fw.table.no-outline.mobile-invert {
+    background: #000000;
+}
 @media screen and (max-width:550px) {
     .prodUX15 .row.fw.table.no-outline.mobile-invert .textblock {
         background: none;
     }
-    .prodUX15 .row.fw.table.no-outline.mobile-invert .textblock .mnsText1 {
-        color: #000
+    /*.prodUX15 .row.fw.table.no-outline.mobile-invert .textblock .mnsText1 {
+        color: #000*/
     }
 }
 
@@ -4339,6 +4481,7 @@ dl.price .collectInStore {
 .prodUX15 .col-md-4-3 .dlp.hero.static.w880.centred .copy h2,
 .prodUX15 .col-md-4-3 .dlp.hero.static.w880.centred .copy h3,
 .prodUX15 .col-md-4-3 .dlp.hero.static.w880.centred .copy h4 {
+    /*font-size:6em;*/
     margin-bottom: 0.4em;
     text-transform: uppercase
 }
@@ -11603,7 +11746,7 @@ dl.price .collectInStore {
         display: block;
         right: initial;
         border: 1px solid #000;
-        z-index: 9
+        z-index: 99999
     }
     .prodUX15 .more-box {
         clear: both;
@@ -11754,6 +11897,9 @@ dl.price .collectInStore {
     line-height: .2;
     display: block
 }
+
+
+/*.prodUX15 .hp-button-blknr-ghost.btnstyle.chev:after {content: " ";background:url(http://asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?extendN=-.25,-.05,-.25,-0.05&wid=7&fmt=png&op_usm=0,0,0,0) 0 0 no-repeat transparent;display: inline-block;height: 18px;width: 9px;z-index: 1;margin-left: 5px;overflow: visible;vertical-align: middle}*/
 
 .prodUX15 .hp-button-blknr-ghost.btnstyle.chev:after {
     content: " ";
@@ -12547,6 +12693,7 @@ dl.price .collectInStore {
     clear: both;
     display: block;
     overflow: hidden;
+    /*height: 0px;padding-bottom: 56.25%;padding-top: 35px;*/
     height: 35px;
     padding-bottom: 70%;
     padding-top: 30%;
@@ -12768,6 +12915,7 @@ dl.price .collectInStore {
         background-position: -10000px center;
         padding-top: 8%;
     }
+    /*.prodUX15 .aif-video-hub:after {background: url("//asset2.cxnmarksandspencer.com/is/image/mands/7c512e1e2bfc3dd62b0ec66e5c5692410e1e22a8?$editorial_1200x680$") no-repeat 0 100%;bottom: 0;content: "";display: block;height: 18px;left: 0;position: absolute;width: 100%;}.prodUX15 .aif-video-hub:before {background-image: url("//asset2.cxnmarksandspencer.com/is/image/mands/7c512e1e2bfc3dd62b0ec66e5c5692410e1e22a8?$editorial_1200x680$");top: 0;content: "";display: block;height: 18px;left: 0;position: absolute;width: 100%;}*/
 }
 
 @media screen and (max-width:600px) {
@@ -12959,6 +13107,8 @@ dl.price .collectInStore {
     width: 100%
 }
 
+
+/*.prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:first-child h3 + p:first-of-type {padding-top: .5em}*/
 
 @media screen and (max-width: 767px) and (min-width: 551px) {
     .prodUX15 .no__gutter [class^="col-md-"] .tile__style-reveal-link .copy a {
@@ -13166,7 +13316,7 @@ dl.price .collectInStore {
     padding-top: 5%;
     -webkit-background-clip: text;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale
 }
 
 .prodUX15 .dlp.hero.static.w880.centred.alt.btm.xmas h1.alt,
@@ -13180,7 +13330,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .dlp.hero.static.w880.centred.alt.btm.xmas p {
-    color: #FFFFFF;
+    color: #FFFFFF
 }
 
 .prodUX15 .dlp.hero.static.w880.left.centred.sans-serif.headline-body.xmas .copy p.width100 {
@@ -13227,7 +13377,7 @@ dl.price .collectInStore {
         display: none
     }
     .prodUX15 .dlp.hero.static.w880.xmas img {
-        display: none;
+        display: none
     }
 }
 
@@ -13320,7 +13470,7 @@ dl.price .collectInStore {
 
 .prodUX15 .module__5-image--1-largetall--4-square-opt4 .col-md-2 .hp-button-blknr-ghost.btnstyle:after,
 .prodUX15 .module__5-image--1-largetall--4-square-opt3 .col-md-2 .hp-button-blknr-ghost.btnstyle:after,
-.prodUX15 [class^="module__5-image--1-largetall--4-square-"] .col-md-2 .hp-button-blknr-ghost.btnstyle:after,
+.prodUX15 [class^="module__5-image--1-largetall--4-square-"] .col-md-2 .hp-button-blknr-ghost btnstyle:after,
 .prodUX15 .module__5-image--1-largetall--4-square-opt1 .col-md-2 a:after,
 .prodUX15 .module__5-image--1-largetall--4-square-opt2 .col-md-2 a:after,
 .prodUX15 .bu-hero-split.christmas a.hp-button-blknr-ghost.btnstyle:after,
@@ -13396,15 +13546,15 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list img {
-    width: 29.5% ! important
+    width: 29.5% ! important;
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list .copy {
-    padding-left: 12%
+    padding-left: 12%;
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list .copy a {
-    line-height: 2.2
+    line-height: 2.2;
 }
 
 .prodUX15 .mosaic .mosaic-list .copy:last-of-type {
@@ -13412,7 +13562,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 .row.clearfix.height2em.mosaic.img6 {
-    display: inline
+    display: inline;
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 div.col-md-3:nth-child(1) > div {
@@ -13434,7 +13584,7 @@ dl.price .collectInStore {
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 div.col-md-3:nth-child(1) > div h2 {
-    font-family: 'mns-london-bold', sans-serif
+    font-family: mns-london-bold
 }
 
 .prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3 .cutout .copy {
@@ -13469,7 +13619,7 @@ dl.price .collectInStore {
     border-top-style: solid ! important;
     border-top-width: 2px ! important;
     border-bottom-width: 0;
-    text-align: center
+    text-align: center;
 }
 
 .prodUX15 .module__1-image--2-columns--text-tile__border-top > .col-md-2 {
@@ -13874,6 +14024,16 @@ dl.price .collectInStore {
     .prodUX15 [class^="module__5-image--1-largetall--4-square-"] > .col-md-2:nth-child(2) > .col-sm-2:nth-child(even) {
         padding-right: 0
     }
+    /* .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 */
+    .prodUX15 .module__1-image--2-columns--text-tile__border-top {
+        /*-ms-box-orient: horizontal;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction: column;flex-direction:column*/
+    }
+    .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 img {
+        /*-webkit-box-ordinal-group: 1;-moz-box-ordinal-group: 1;-ms-flex-order: 1;-webkit-order: 1;order:1*/
+    }
+    .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 > div {
+        /*-webkit-box-ordinal-group: 2;-moz-box-ordinal-group: 2;-ms-flex-order: 2;-webkit-order: 2;order:2;display:block*/
+    }
     .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 > div h2,
     .prodUX15 .module__5-image--1-largetall--4-square-opt4 > .col-md-2 + .col-md-2 > div h3 {
         border-top-style: none;
@@ -13904,6 +14064,7 @@ dl.price .collectInStore {
         width: 100%;
         max-width: 600px
     }
+    /*.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3:first-of-type div,.prodUX15 .module__5-image-square--1-tall-video--top3 .col-md-3:first-of-type img {width: 50%;float:left}*/
     .prodUX15 .module__5-image-square--1-tall-video--top3 .mosaic .mosaic-list img {
         clear: left;
         padding-bottom: 10px;
@@ -13992,6 +14153,7 @@ dl.price .collectInStore {
     .prodUX15 .module__5-image--1-largetall--4-square-opt2.standard > .col-md-2 {
         padding: 0 5px
     }
+    /*.prodUX15 .module__5-image--1-largetall--4-square-opt2.standard > .col-md-2:nth-child(2) > .col-sm-2:nth-child(even) {padding-left: 10px}*/
 }
 
 @media screen and (max-width:1023px) {
@@ -14088,6 +14250,12 @@ dl.price .collectInStore {
 .prodUX15 .imgblock p [class*="hp-button-"]:before {
     content: initial
 }
+
+
+/* --- Flowers & Gifts A/B test 17-08-16 --- */
+
+
+/*.mega-trigger.content-loaded:nth-of-type(10), #SC_1-1372.mega-inner {display:none!important}*/
 
 
 /* --- Split Hero with 2 slices 21-09-16 --- */
@@ -14477,10 +14645,10 @@ dl.price .collectInStore {
         height: 30px;
         width: 115%
     }
-    /*.prodUX15 .simple-list.select-list .left-navigation:-moz-any(select) {
+    .prodUX15 .simple-list.select-list .left-navigation:-moz-any(select) {
         background-position: 85% 50%;
         width: 115%
-    }*/
+    }
     .prodUX15 .left-navigation select::-ms-expand {
         display: none
     }
@@ -14552,7 +14720,7 @@ dl.price .collectInStore {
 .prodUX15 .hero__wine-club ~ .col-md-2 h2,
 .prodUX15 .hero__wine-club ~ .col-md-2 h3 {
     font-family: mns-london-bold, helvetica, sans-serif;
-    font-size: 4.8em
+    /*font-size: 4.8em*/
 }
 
 .prodUX15 .hero__wine-club .copy p {
@@ -14646,7 +14814,7 @@ dl.price .collectInStore {
     text-align: center
 }
 
-.prodUX15 .three__column--promo-pullout .col-md-3 a:after {
+.prodUX15 .three__column--promo-pullout .col-md-3 .copy a:after {
     background: url(//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?wid=15&fmt=png-alpha) no-repeat scroll center 115% transparent;
     content: "";
     position: relative;
@@ -14804,7 +14972,17 @@ dl.price .collectInStore {
     padding: 2em;
     width: 96%
 }
-
+.prodUX15 .three__column--promo-pullout .col-md-1 {
+    clear: both;
+    padding-top: 30px
+}
+.prodUX15 .loose {
+    letter-spacing: 3px
+}
+.prodUX15 .hero__wine-club .copy > h1 span sub, 
+.prodUX15 .hero__wine-club .copy > h2 span sub {
+     font-size: 0.5em
+}
 @media screen and (max-width: 1023px) {
     .prodUX15 .hero__wine-club {
         display: -webkit-box;
@@ -14818,16 +14996,16 @@ dl.price .collectInStore {
     .prodUX15 .hero__wine-club .copy,
     .prodUX15 .hero__wine-club ~ .two-column-dividing-rule .centre-content.image .copy {
         padding: 2em;
-        position: relative;
+        position: relative
     }
     .prodUX15 .hero__wine-club .copy p {
-        font-size: 2.4em;
+        font-size: 2.4em
     }
     .prodUX15 .hero__wine-club .offer__roundel {
         margin: 15px auto 0px;
         position: relative;
         right: auto;
-        top: auto;
+        top: auto
     }
     .prodUX15 .hero__wine-club ~ div .col-md-2 div {
         float: none;
@@ -14897,6 +15075,7 @@ dl.price .collectInStore {
 .prodUX15 .hero__wine-club .split span {
     display: inline-block;
     font-family: 'mns-london-light', sans-serif;
+    line-height:1.5;
     width: 100%
 }
 
@@ -15011,6 +15190,8 @@ dl.price .collectInStore {
     text-transform: uppercase
 }
 
+
+/*.prodUX15 .DeliveryMsgBanner.clickable.christmas__3-for-2 .hp-button-blknr-ghost.btnstyle.chev.christmas__border--red:after {display: none}*/
 
 .prodUX15 .DeliveryMsgBanner.clickable.christmas__3-for-2:before {
     background: url("https://asset1.cxnmarksandspencer.com/is/image/mands/5880d9be04fd92e4132a9b7685a4269b3078ba1b?wid=75&fmt=png-alpha") no-repeat scroll 0px 0px transparent;
@@ -15202,7 +15383,7 @@ dl.price .collectInStore {
     margin: 0;
     -webkit-background-clip: text;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15291,6 +15472,7 @@ dl.price .collectInStore {
 
 .prodUX15 .simple-list.select-list nav[data-name^="Module"] li.header.lower,
 .prodUX15 .simple-list.select-list nav[data-name^="Module"] li.header.lower a {
+    /*font-size: 1.133892em;*/
     font-family: 'mns-london-bold', sans-serif;
     margin: 0;
     line-height: 2.8;
@@ -15307,6 +15489,7 @@ dl.price .collectInStore {
 .prodUX15 .simple-list.select-list nav[data-name^="Module"] li.header.lower ul li,
 .prodUX15 .simple-list.select-list nav[data-name^="Module"] li.header.lower ul a {
     font-family: 'mns-london', sans-serif;
+    /*font-size: 0.8485em;*/
     line-height: normal
 }
 
@@ -15318,10 +15501,15 @@ dl.price .collectInStore {
     font-size: .85em;
 }
 
+
+/*.touch .prodUX15 .mobile__preview .mobile__inner {padding-right: 37px}*/
+
 .prodUX15 .subtitle--small {
     font-size: 2.5em
 }
 
+
+/*.prodUX15 .simple-list.select-list nav[data-name^="Module"] li.header:first-child a {padding: 0 0 0 25px;margin-bottom: 0;font-family: 'mns-london', sans-serif;font-size: 1em}*/
 
 .prodUX15 .swatch {
     margin-bottom: 20px;
@@ -15519,7 +15707,7 @@ dl.price .collectInStore {
 .prodUX15 .btn,
 .prodUX15 .snippet-group .snippet-resize button {
     max-width: none;
-    width: auto
+    width: auto;
 }
 
 .prodUX15 .no-touch .btn--primary.active {
@@ -15612,35 +15800,35 @@ dl.price .collectInStore {
     font-size: 1.6rem;
     margin-left: -2.5rem;
     top: 1.1rem;
-    position: absolute
+    position: absolute;
 }
 
 .prodUX15 .btn__icon--edit::before {
     font-size: 1.8rem;
     margin-left: -2.8rem;
     top: 0.9rem;
-    position: absolute
+    position: absolute;
 }
 
 .prodUX15 .btn__icon--gift::before {
     font-size: 1.8rem;
     margin-left: -2.8rem;
     top: 0.8rem;
-    position: absolute
+    position: absolute;
 }
 
 .prodUX15 .btn__icon--close::before {
     font-size: 1.5rem;
     margin-left: -2.5rem;
     top: 1.2rem;
-    position: absolute
+    position: absolute;
 }
 
 .prodUX15 .btn__icon--lock::before {
     font-size: 2rem;
     left: -0.3rem;
     position: relative;
-    top: 0
+    top: 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15659,6 +15847,7 @@ dl.price .collectInStore {
 .prodUX15 .select-list nav[data-name^="Module"] .header input[type=checkbox]:checked ~ label.unchecked:after {
     content: url(//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?&cropN=0,0.9,0.75,0&rotate=0&fmt=png-alpha&resMode=sharp2&wid=14&hei=14);
     display: inline-block;
+    /*line-height:3.3;width: 15px;*/
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -ms-transition: all 0.2s linear;
@@ -16198,11 +16387,11 @@ dl.price .collectInStore {
     .prodUX15 .module__1-image--2-columns--text-tile__no-border .col-md-2 {
         width: calc(97.2vw)
     }
-    /*@-moz-document url-prefix("") {
+    @-moz-document url-prefix("") {
         .prodUX15 .module__1-image--2-columns--text-tile__no-border .col-md-2 {
             width: calc(98.3vw)
         }
-    } */
+    }
     .prodUX15 .module__3img__1large__2square_2cta .col-md-3-2 .copy {
         margin-top: 1.4em;
         top: 2%
@@ -16242,13 +16431,13 @@ dl.price .collectInStore {
     }
 }
 
-/* @media screen and (-ms-high-contrast: active),
+@media screen and (-ms-high-contrast: active),
 (-ms-high-contrast: none) and (max-width:767px) {
     .prodUX15 .module__3img__1large__2square_2cta .col-md-3-2 ~ .col-md-3 .imgblock {
         display: block;
         margin-top: 20px
     }
-} */
+}
 
 
 /* --- No rules from standard modules --- */
@@ -17285,7 +17474,7 @@ dl.price .collectInStore {
     outline: none;
 }
 
-.prodUX15 .no__gutter.alternate__flex .col-md-4-3.offset-1.copyblock [class*="col-md-"] {
+.prodUX15 .no__gutter .col-md-4-3.offset-1.copyblock [class*="col-md-"] {
     padding: 0 1em;
 }
 
@@ -17294,9 +17483,9 @@ dl.price .collectInStore {
 }
 
 @media screen and (max-width:1023px) {
-    .prodUX15 .no__gutter.alternate__flex .col-md-4-3.offset-1.copyblock .col-md-2 {
+    .prodUX15 .no__gutter .col-md-4-3.offset-1.copyblock .col-md-2 {
         width: 50%;
-        padding: 0 1em;
+        padding: 0 1em
     }
 }
 
@@ -17306,11 +17495,21 @@ dl.price .collectInStore {
         display: inline-block
     }
     .prodUX15 .centre-content .btnstyle.chev.width40 {
-        width: 100%;
+        width: 100%
     }
     .prodUX15 .no__gutter.alternate__flex>.col-md-2:first-child {
-        margin-top: 2em;
+        margin-top: 2em
     }
+    .prodUX15 .no__gutter.alternate__flex> .col-md-2 + .col-md-2 {
+        margin-top:0
+    }
+    .prodUX15 .no__gutter>.col-md-2> .col-md-4-3.offset-1.copyblock {
+        margin-bottom:2em;
+        overflow:hidden
+    }
+    .prodUX15 .no__gutter.alternate__flex>.col-md-2> .col-md-4-3.offset-1.copyblock {
+        margin-bottom:0
+    }    
 }
 
 .prodUX15 .no__gutter [class^="col-sm-"] {
