@@ -1,7 +1,7 @@
 /* ---   
-LATEST Update: 16.03.2017
+LATEST Update: 17.03.2017
 
-- Last backup: R:\Production_2014\Stylesheet Backups\2016-17\mns.bizglobal.min-backups\20170316
+- Last backup: R:\Production_2014\Stylesheet Backups\2016-17\mns.bizglobal.min-backups\20170317
 
 ---- */
 
@@ -6186,7 +6186,8 @@ div.contact-us-landing .g12:last-child {
 }
 
 .prodUX15 .clothing-guide-tabs .header h2 {
-    line-height: 2;
+    /*line-height: 2;*/
+    margin-bottom:.5em
     text-align: center
 }
 
@@ -6949,7 +6950,7 @@ div.contact-us-landing .g12:last-child {
 }
 
 .prodUX15 .campaign-form input[type="checkbox"]:checked:after {
-    content: "✔";
+    content: "âœ”";
     display: block;
     font-size: 3em;
     line-height: 0.8;
@@ -13175,9 +13176,12 @@ div.contact-us-landing .g12:last-child {
         float: left;
         width: 50%
     }
-    .prodUX15 .no__gutter .col-md-3 .tile__style-reveal-link {
+    /*.prodUX15 .no__gutter .col-md-3 .tile__style-reveal-link {
         margin-top: 1em
-    }
+    }*/
+    .prodUX15 .no__gutter.hero__split.two.images [class^="col-md-"]:nth-child(odd) {
+    padding: 0;
+}
 }
 
 @media screen and (max-width:600px) {
@@ -17253,7 +17257,7 @@ div.contact-us-landing .g12:last-child {
         left: auto;
         width: 100%;
         padding: 2em;
-        background: #CCC
+        background: #FFF
     }
     .prodUX15 .fw.hero.no__img--mobile .copy h1.mnsText1 {
         color: #FFF;
