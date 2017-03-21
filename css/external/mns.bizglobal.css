@@ -1,7 +1,7 @@
 /* ---   
-LATEST Update: 17.03.2017
+LATEST Update: 21.03.2017
 
-- Last backup: R:\Production_2014\Stylesheet Backups\2016-17\mns.bizglobal.min-backups\20170317
+- Last backup: R:\Production_2014\Stylesheet Backups\2016-17\mns.bizglobal.min-backups\20170321
 
 ---- */
 
@@ -6950,7 +6950,7 @@ div.contact-us-landing .g12:last-child {
 }
 
 .prodUX15 .campaign-form input[type="checkbox"]:checked:after {
-    content: "âœ”";
+    content: "✔";
     display: block;
     font-size: 3em;
     line-height: 0.8;
@@ -17538,7 +17538,22 @@ div.contact-us-landing .g12:last-child {
     }
     .prodUX15 .no__gutter.alternate__flex>.col-md-2> .col-md-4-3.offset-1.copyblock {
         margin-bottom:0
-    }    
+    }   
+    .prodUX15 .feature-navigation .col-md-4~.col-md-2~.col-md-4 {
+        display:none
+    }
+    .prodUX15 .fw.hero.sml.center.no__img--mobile .copy {
+        padding-top:0;
+    }
+    .prodUX15 .feature-navigation .col-md-4~.col-md-2 {
+        margin-bottom:0;
+    }
+    .prodUX15 .fw.hero.sml.center.no__img--mobile .copy h1.hero__title--medium {
+        margin-top:0
+    }
+    .prodUX15 .fw.hero.sml.center.hub.no__img--mobile {
+        margin-top:0
+    }
 }
 
 .prodUX15 .no__gutter [class^="col-sm-"] {
