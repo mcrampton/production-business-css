@@ -17831,7 +17831,8 @@ div.contact-us-landing .g12:last-child {
     font-size: 2em
 }
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"]>.col-md-2:first-child .size--regular {
-    font-family: 'mns-london-bold',serif
+    font-family: 'mns-london-bold',serif;
+    font-size: 2.2em
 }
 .prodUX15 p .btnstyle.width40 {
      width: 40%
