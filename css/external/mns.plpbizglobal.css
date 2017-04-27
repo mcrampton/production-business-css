@@ -1,5 +1,5 @@
 /* ---   
-LATEST Update: 03.04.2017
+LATEST Update: 27.04.2017
 
 - Last backup: R:\Production_2014\Stylesheet Backups\
 
@@ -986,7 +986,8 @@ only screen and (min-device-pixel-ratio:2) {
 }
 
 .plp__banner--SS17 {
-    position:relative;
+    margin-bottom:2em;
+    position:relative
 }
 .plp__banner--SS17 .copy {
     background: rgba(255,255,255,0);
@@ -1004,7 +1005,11 @@ only screen and (min-device-pixel-ratio:2) {
 }
 .plp__banner--SS17 .copy h1 {
     font-family: 'mns-london-bold', sans-serif;
-    font-size: 3em
+    font-size: 3em;
+    margin-bottom: 0.4em
+}
+.plp__banner--SS17 .copy h1 span#facetSeoPage {
+    font-size: 1em
 }
 .plp__banner--SS17 .copy p {
     font-size: 1.6em;
@@ -1017,4 +1022,129 @@ only screen and (min-device-pixel-ratio:2) {
 .grid-view .wine-awards-container {
 top: 5px;
 left: 5px;
+}
+/* --- Banner navigation --- */
+.campaign__navigation ul {
+    float: left;
+    font-size: 1.4em;
+    margin-top: 1em;
+    max-width: 1200px;
+    padding: 0 0 0 1em;
+    width: 100%
+}
+
+.campaign__navigation li {
+    display: block;
+    float: left;
+    margin: 2px 5px 5px
+}
+
+.campaign__navigation li a.hp-button-blknr-ghost.btnstyle.chev {
+    border-color: #DFBFC2;
+    display: block;
+    margin-top: 0px;
+    padding: 0.679em 0.4em 0.679em;
+    position: relative;
+    text-transform:uppercase
+}
+
+.campaign__navigation.blue li a.hp-button-blknr-ghost.btnstyle.chev.active {
+    background: #809FBC;
+    color: #FFF
+}
+.campaign__navigation.blue li a.hp-button-blknr-ghost.btnstyle.chev.active:after {
+    content: "";
+    background: url(//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?fmt=png-alpha&wid=15&op_invert=1) no-repeat scroll 0 0 transparent
+}
+.campaign__navigation li a.hp-button-blknr-ghost.btnstyle.chev:after {
+    background: url("//asset1.marksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?fmt=png-alpha&wid=15") no-repeat scroll 0px 0px transparent;
+    content:"";
+    height: 18px;
+    margin-left: 3px;
+    padding-left: 2%;
+    width: 16px;
+    position: absolute;
+    right: 0;
+    top: 11px
+}
+
+.campaign__navigation li.return__home a {
+    background: url("//asset1.marksandspencer.com/is/image/mands/cccbc4b1a398c80f22f73a7df7db8d99328876fa?wid=38&fmt=png&resMode=sharp2&op_usm=0.9,1.0,8,0") no-repeat 0 50% transparent;
+    background-size: 70%;
+    display: block;
+    height: 40px;
+    text-indent: -9999px;
+    width: 40px
+}
+
+.campaign__navigation.blue li.return__home a {
+    background: url("//asset1.marksandspencer.com/is/image/mands/1b173c3cae4182607d2b29de9b972e75fb44e976?wid=38&fmt=png&resMode=sharp2&op_usm=0.9,1.0,8,0&opm_contrast=100") no-repeat 0 50% transparent;
+    background-size: 70%;
+}
+
+.campaign__navigation.blue li.return__home.inactive a {
+    background: url(//asset1.marksandspencer.com/is/image/mands/7b77ead843eca438b4c7a2225a549c346d153b90?wid=38&fmt=png&resMode=sharp2&op_usm=0.9,1,8,0&opm_contrast=100) no-repeat 0 50% transparent;
+    background-size: 70%
+}
+
+.campaign__navigation {
+    clear:both;
+    max-width: 895px;
+    width: 100%
+}
+
+.campaign__navigation li.return__home {
+    margin-right: 8px
+}
+
+.campaign__navigation li.sub__section {
+    width: 22.5%
+}
+
+.campaign__navigation li.return__home {
+    width: 3.5%
+}
+
+.campaign__navigation.blue li a.hp-button-blknr-ghost.btnstyle.chev {
+    border-color: #94B8dA
+}
+
+.campaign__navigation.no-home li.sub__section {
+    width: 24.15%
+}
+
+.campaign__navigation.no-home ul {
+    padding-left: 0
+}
+.campaign__navigation .hp-button-blknr-ghost.btnstyle.chev {
+    border-style:solid;
+    border-width:1px
+}
+.campaign__navigation.no-home .sub__section:first-child {
+    margin-left: 0
+}
+.campaign__navigation.no-home .sub__section:last-child {
+    margin-right: 0
+}
+@media screen and (max-width:1239px) {
+    .campaign__navigation li.return__home a {
+        height: 32px;
+        width: 32px
+    }
+    .campaign__navigation li {
+        margin: 2px 3px 3px
+    }
+    .campaign__navigation li a.hp-button-blknr-ghost.btnstyle.chev:after {
+        top: 7px
+    }
+        .campaign__navigation.no-home li.sub__section {
+        width: 24.33%
+    }
+    .campaign__navigation li {
+        margin: 0 3px
+    }
+}
+/* site strip lower case */
+.site-strip .banner__lower {
+    text-transform: none
 }
