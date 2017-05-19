@@ -1,7 +1,7 @@
 /* ---   
-LATEST Update: 27.04.2017
+LATEST Update: 07.04.2017
 
-- Last backup: R:\Production_2014\Stylesheet Backups\2017\mns.bizglobal.min-backups\20170427
+- Last backup: R:\Production_2014\Stylesheet Backups\2017\mns.bizglobal.min-backups\20170407
 
 ---- */
 
@@ -9577,9 +9577,6 @@ div.contact-us-landing .g12:last-child {
     .prodUX15 .row .col-md-4 .imgblock .copy {
         padding: 0
     }
-    .prodUX15 .row .col-md-4 .imgblock .copy .height2em {
-        height: 0;
-    }
     /* --- Lined header mobile fix 30-11-16 --- */
     .prodUX15 .lined-header {
         line-height: 1.5;
@@ -16515,8 +16512,6 @@ div.contact-us-landing .g12:last-child {
 .prodUX15 .module__5-image--1-largetall--4-square-opt2.standard.no-rule > .col-md-2:first-child h3,
 .prodUX15 .module__5-image--1-largetall--4-square-opt3.standard.no-rule .col-md-2 > img:first-child,
 .prodUX15 .module__5-image--1-largetall--4-square-opt4.standard.no-rule .col-md-2:nth-child(2) > img,
-.prodUX15 .module__5-image--1-largetall--4-square-opt3.standard.no-rule .col-md-2 > a img:first-child,
-.prodUX15 .module__5-image--1-largetall--4-square-opt4.standard.no-rule .col-md-2:nth-child(2) > a img,
 .prodUX15 .module__5-image-square--1-tall-video--top3.standard.no-rule div.col-md-3:nth-child(1) > div {
     border-width: 0
 }
@@ -17780,10 +17775,7 @@ div.contact-us-landing .g12:last-child {
      padding: 0 3% 0;
      width: 65%
 }
-.prodUX15 .no__gutter.hero__split.two.images.centred.siw sub {
-    font-size:76.4705%;
-    line-height: normal
-}
+
 .prodUX15 [class*="hero"] [class*="rule__above-below"] {
     font-size: 3.4em;
     line-height: 1.25;
@@ -17803,16 +17795,6 @@ div.contact-us-landing .g12:last-child {
      margin: 30px auto 0;
      width: 35px
 }
-.prodUX15 .col-md-4-3 [class*="hero"] [class*="rule__above-below"]:before { 
-     margin: 0px auto 12px
-}
-.prodUX15 .col-md-4-3 [class*="hero"] [class*="rule__above-below"]:after {
-     margin: 27px auto 0
-}
-.prodUX15 [class*="hero"] [class*="--blue"]:before, 
-.prodUX15 [class*="hero"] [class*="--blue"]:after {
-    background: #00B8FF;
-}
 .prodUX15 [class*="hero"] [class*="--magenta"]:before,
 .prodUX15 [class*="hero"] [class*="--magenta"]:after {
     background:#D96B88
@@ -17820,30 +17802,6 @@ div.contact-us-landing .g12:last-child {
 .prodUX15 [class*="hero"] [class*="--yellow"]:before,
 .prodUX15 [class*="hero"] [class*="--yellow"]:after {
     background:#e6c053
-}
-.prodUX15 [class*="hero"] [class*="--white"]::before, 
-.prodUX15 [class*="hero"] [class*="--white"]::after {
-    background: #FFFFFF
-}
-.prodUX15 [class*="hero"] [class*="--orange"]::before, 
-.prodUX15 [class*="hero"] [class*="--orange"]::after {
-    background: #d88d49
-}
-.prodUX15 [class*="hero"] [class*="--green"]::before, 
-.prodUX15 [class*="hero"] [class*="--green"]::after {
-    background: #9ca031
-}
-.prodUX15 [class*="hero"] [class*="--white"] {
-    color: #FFFFFF
-}
-.prodUX15 [class*="hero"].centred.alt.btm [class*="--white"]::before {
-    margin-bottom: 16px;
-}
-.prodUX15 [class*="hero"].centred.alt.btm [class*="--white"]::after {
-    margin-top: 19px;
-}
-.prodUX15 .full-width.hero.centred.alt.btm [class*="--white"] {
-    line-height: 1;
 }
 .prodUX15 .copyblock.offset-1 .size--medium {
      font-size: 2em;
@@ -17863,32 +17821,18 @@ div.contact-us-landing .g12:last-child {
      line-height: normal;
      margin: 5% 0 8%
 }
-.prodUX15 .copyblock.offset-2 .size--regular,.prodUX15 .col-md-6-4.offset-col-6.copyblock .size--regular {
+.prodUX15 .copyblock.offset-2 .size--regular {
      font-size: 2.2em;
      font-weight: 700;
      line-height: normal;
      margin: 5% 0 8%
 }
-.prodUX15 .copyblock.offset-1 .size--large {
-     font-size: 2.6em;
-     line-height: normal
-}
-.prodUX15 .copyblock.offset-2 .size--large {
-     font-size: 2.6em;
-     line-height: normal;
-}
-
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"]>.col-md-2:first-child .size--medium {
     font-size: 2em
 }
 .prodUX15 [class^="module__5-image--1-largetall--4-square-"]>.col-md-2:first-child .size--regular {
     font-family: 'mns-london-bold',serif;
-    font-size: 2.2em;
-    line-height:1
-}
-.prodUX15 [class^="col-md-2-text-"] .size--regular {
-    font-size: 2.2em;
-    font-family: 'mns-london-bold',serif
+    font-size: 2.2em
 }
 .prodUX15 p .btnstyle.width40 {
      width: 40%
@@ -17935,12 +17879,9 @@ div.contact-us-landing .g12:last-child {
 .prodUX15 .mobile__float-left .col-md-4-3.offset-1.copyblock .col-sm-2.col-md-2 {
     padding: 0 1em
 }
-.prodUX15 .mobile__float-left .col-md-2 .col-md-2.offset-2.copyblock,
-.prodUX15 .mobile__float-left .col-md-4-3.offset-1.copyblock, 
-.prodUX15 .mobile__float-left .col-md-6-4.offset-col-6.copyblock {
+.prodUX15 .mobile__float-left .col-md-2 .col-md-2.offset-2.copyblock {
     padding-bottom: 1.4em;
 }
-
 .prodUX15 .mobile__float-left .col-md-4-3.offset-1.copyblock {
     width: 76%;
 }
@@ -17956,7 +17897,7 @@ div.contact-us-landing .g12:last-child {
 }
 .prodUX15 .col-md-4-3 .no__gutter.hero__split.two.images.centred.siw .copy {
     height: 43.9em;
-    margin: 0 0 0 16em;
+    margin: 0 0 0 15em;
     width: 64%
 }
 .prodUX15 .col-md-4-3 [class*="hero"] .rule__above-below--magenta.dlp {
@@ -18096,9 +18037,6 @@ div.contact-us-landing .g12:last-child {
     .prodUX15 .mobile__float-left>.col-md-2 .col-md-4-3.offset-1.copyblock .col-sm-2.col-md-2 {
         padding-bottom: 2em
     }
-    .prodUX15 .mobile__float-left .col-md-4-3.offset-1.copyblock {
-        width: 100%
-    }
 }
 .prodUX15 .link--chev:after {
     content: '\e608';
@@ -18146,50 +18084,4 @@ div.contact-us-landing .g12:last-child {
 .prodUX15 .width60.centred,
 .prodUX15 .width70.centred {
     margin: 0 auto
-}
-/* site strip lower case */
-.site-strip .banner__lower {
-    text-transform: none
-}
-/* grey boxed campaign navigation */
-.prodUX15 .campaign__navigation.grey li a.hp-button-blknr-ghost.btnstyle.chev {
-    border-color: #808080
-}
-.prodUX15 .btnstyle.grey, 
-.prodUX15 .hp-button-blknr-ghost.btnstyle.grey, 
-.prodUX15 .standard[class^="module__5-image-"] .grey[class^="hp-button-"], 
-.prodUX15 .standard[class*="module__1-image-"] [class*="col-md-2-text-"] .grey[class^="hp-button-"] {
-    border-color: #808080
-}
-/* PLP for preview in AEM */
-.plp__banner--SS17 {
-    margin: 0 auto 2em;
-    position: relative;
-    width: 895px
-}
-.plp__banner--SS17 .copy {
-    background: rgba(255,255,255,0);
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 100%;
-    left: auto;
-    padding: 5% 28%;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%
-}
-.plp__banner--SS17 .copy h1 {
-    font-family: 'mns-london-bold', sans-serif;
-    font-size: 3em;
-    margin-bottom:.4em
-}
-.plp__banner--SS17 .copy p {
-    font-size: 1.6em;
-    line-height: 1.375
-}
-.plp__banner--SS17 .upper {
-    text-transform:uppercase
 }

@@ -1,5 +1,5 @@
 /* ---   
-LATEST Update: 27.04.2017
+LATEST Update: 05.05.2017
 
 - Last backup: R:\Production_2014\Stylesheet Backups\
 
@@ -1147,4 +1147,24 @@ left: 5px;
 /* site strip lower case */
 .site-strip .banner__lower {
     text-transform: none
+}
+
+/* Spirit of summer banner 17 05-05-17 */
+
+.plp__banner--SS17.gold .mnsText1{
+    color: #FFF
+}
+.plp__banner--SS17.gold .copy {
+        padding: 6.5% 22.5% 5%
+}
+.plp__banner--SS17.gold h1 {
+    color: #fdeb97;
+    font-family: "mns-london-bold", sans-serif;
+    font-size:4.1em;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), url('//asset1.cxnmarksandspencer.com/is/image/mands/5bf24460f9edd80fc0569d7c8c6eed3db96c7584?wid=1200') no-repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
