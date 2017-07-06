@@ -1,6 +1,6 @@
 /* ---   
-LATEST Update: 05.07.2017
-
+LATEST Update: 06.07.2017
+Refactor-Branch Made first edit
 - Last backup: R:\Production_2014\Stylesheet Backups\2017\mns.bizglobal.min-backups\20170705
 
 --------- */
@@ -655,43 +655,6 @@ LATEST Update: 05.07.2017
 .txtBtmCentre.cta {
     left: 47em;
     width: auto
-}
-
-/*! ---Home lego terms and conditions ---!*/
-
-.homepage.lego_tsandcs.black,
-.homepage.lego_tsandcs.white {
-    bottom: 1em;
-    display: block;
-    font-size: 1.1em;
-    left: 68em;
-    z-index: -2;
-    position: absolute
-}
-
-/*! ---Home Carousel terms and conditions ---!*/
-
-.homepage.carousel_tsandcs.black,
-.homepage.carousel_tsandcs.white {
-    bottom: 1em;
-    display: block;
-    font-size: 1.4em;
-    left: 1em;
-    position: absolute
-}
-
-/*! ---Home Carousel terms and conditions white text ---!*/
-
-.homepage.carousel_tsandcs.white a,
-.homepage.lego_tsandcs.white a {
-    color: #FFF
-}
-
-/*! ---Home Carousel terms and conditions black text ---!*/
-
-.homepage.carousel_tsandcs.black a,
-.homepage.lego_tsandcs.black a {
-    color: #000
 }
 
 /*! ---homepage overlay wide bottom centre--*/
@@ -16419,7 +16382,6 @@ div.contact-us-landing .g12:last-child {
         color: #000
     }
 }
-
 
 /* --- Plus size clothing 27-02-7 --- */
 
