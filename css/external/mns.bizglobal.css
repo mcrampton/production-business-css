@@ -553,12 +553,10 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 .hp-button-white-solid:visited {
     background-color: #fff;
 }
-.hp-button-white-ghost,
-.hp-button-whitenr-ghost {
+[class^="hp-button-white"] {
     border: 1px solid #fff
 }
-.hp-button-blk-ghost,
-.hp-button-blknr-ghost {
+[class^="hp-button-blk"] {
     border: 1px solid #000
 }
 .hp-button-blk-ghost,
@@ -1015,15 +1013,6 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 .prodUX15 .mosaic .textblock a.bold {
     font-size: 1.2em
 }
-.prodUX15 .hero .copy .small {
-    font-size: 3.8em
-}
-.prodUX15 .hero .copy .medium {
-    font-size: 4.8em
-}
-.prodUX15 .hero .copy .large {
-    font-size: 6em
-}
 
 .prodUX15 .btnstyle.pink,
 .prodUX15 .hp-button-blknr-ghost.btnstyle.pink,
@@ -1039,15 +1028,18 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 }
 
 /* --- New Hero title sizes 21-11-16 --- */
+.prodUX15 .hero .copy .small,
 .prodUX15 [class*="hero"] .hero__title--small {
     font-size: 3.6em
 }
+.prodUX15 .hero .copy .medium,
 .prodUX15 [class*="hero"] .hero__title--medium {
     font-size: 4em
 }
 .prodUX15 [class*="hero"] .hero__title--regular {
     font-size: 5em
 }
+.prodUX15 .hero .copy .large,
 .prodUX15 [class*="hero"] .hero__title--large {
     font-size: 6em
 }
@@ -3013,7 +3005,8 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     height: 40em;
     padding: 0
 }
-.prodUX15 .sandlblock {
+.prodUX15 .sandlblock,
+ .prodUX15 .col-md-4-3 .sandlblock {
     border-top: 2px solid #000;
     border-bottom: 4px solid #000;
     overflow: hidden;
@@ -3025,7 +3018,8 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 .prodUX15 .sandlblock .col-md-1 {
     padding-left: 0
 }
-.prodUX15 .sandlblock .col-md-3 .centre-content {
+.prodUX15 .sandlblock .col-md-3 .centre-content,
+ .prodUX15 .col-md-4-3 .sandlblock .col-md-3 .centre-content {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -3037,7 +3031,8 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     text-indent: 1.6em;
     text-transform: uppercase
 }
-.prodUX15 .sandlblock .col-md-3:last-child h2 {
+.prodUX15 .sandlblock .col-md-3:last-child h2,
+.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child h2 {
     border-bottom: .8em solid #000;
     display: block;
     font: 4em/1.2 'mns-leeds', serif;
@@ -3047,14 +3042,16 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     text-transform: uppercase;
     width: 4em
 }
-.prodUX15 .sandlblock .col-md-3:last-child h2 span {
+.prodUX15 .sandlblock .col-md-3:last-child h2 span,
+.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child h2 span {
     clear: both;
     display: block;
     font-size: .65em;
     line-height: 0.5;
     white-space: nowrap
 }
-.prodUX15 .sandlblock .col-md-3:last-child h2 span.plus {
+.prodUX15 .sandlblock .col-md-3:last-child h2 span.plus,
+.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child h2 span.plus {
     bottom: 0.55em;
     clear: left;
     display: block;
@@ -3063,7 +3060,8 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     position: absolute;
     right: 0
 }
-.prodUX15 .sandlblock:before {
+.prodUX15 .sandlblock:before,
+.prodUX15 .col-md-4-3 .sandlblock:before {
     border-left: 1px solid #87783b;
     content: "";
     display: block;
@@ -3074,7 +3072,8 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     width: 2px;
     z-index: 9
 }
-.prodUX15 .sandlblock .col-md-3:last-child a {
+.prodUX15 .sandlblock .col-md-3:last-child a,
+.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child a {
     border-top: 2px solid #000;
     display: block;
     margin: 1em auto 0;
@@ -3094,73 +3093,15 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     height: 29.3em
 }
 .prodUX15 .col-md-4-3 .sandlblock {
-    border-top: 2px solid #000;
-    border-bottom: 4px solid #000;
     margin: 0;
     max-height: 29.3em;
-    overflow: hidden;
-    padding: 0;
-    position: relative
-}
-.prodUX15 .col-md-4-3 .sandlblock .col-md-3 .centre-content {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle
 }
 .prodUX15 .sandlblock .col-md-3:first-child,
 .prodUX15 .col-md-4-3 .sandlblock .col-md-3:first-child {
     background: url('../../../images/global/nav/style-and-living-logo.png') no-repeat 100% 18% / contain
 }
 .prodUX15 .col-md-4-3 .sandlblock .col-md-3:first-child p {
-    font:italic normal 1.8em/1 'mns-leeds', serif;
     margin-top: .5em;
-    text-indent: 1.6em;
-    text-transform: uppercase
-}
-.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child h2 {
-    border-bottom: .8em solid #000;
-    display: block;
-    font: 4em 'mns-leeds', serif;
-    line-height: 1.2;
-    margin: 1em auto 0.85em;
-    position: relative;
-    text-align: left;
-    text-transform: uppercase;
-    width: 4em
-}
-.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child h2 span {
-    clear: both;
-    display: block;
-    font-size: .65em;
-    line-height: 0.5;
-    white-space: nowrap
-}
-.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child h2 span.plus {
-    bottom: 0.55em;
-    clear: left;
-    display: block;
-    font-size: 1.6em;
-    line-height: 0;
-    position: absolute;
-    right: 0
-}
-.prodUX15 .col-md-4-3 .sandlblock:before {
-    border-left: 1px solid #87783b;
-    content: "";
-    display: block;
-    height: 7em;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 2px;
-    z-index: 9
-}
-.prodUX15 .col-md-4-3 .sandlblock .col-md-3:last-child a {
-    border-top: 2px solid #000;
-    display: block;
-    margin: 1em auto 0;
-    padding-top: 0.75em;
-    width: 40%
 }
 
 /* --- Lined Header--- */
@@ -4843,8 +4784,7 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 }
 
 @media screen and (max-width: 1023px) {
-    .prodUX15 .height4em.fw.table .col-md-4-table-double,
-    .prodUX15 .height2em.fw.table .col-md-4-table-double {
+    .prodUX15 [class^="height"].fw.table .col-md-4-table-double {
         height: initial;
         max-width: 350px;
         width: 100%
@@ -5580,14 +5520,6 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     .prodUX15 .col-md-3-table.alt-h .col-md-3:first-child,
     .prodUX15 .col-md-3-table.alt-h .col-md-3:first-child .cutout {
         width: 100%
-    }
-    /* --- Hero Titles --- */
-    .prodUX15 .hero .copy h1,
-    .prodUX15 .hero .copy h2,
-    .prodUX15 .hero .copy h3,
-    .prodUX15 .hero .copy h4 {
-        font-size: 5em;
-        line-height: 1
     }
     .prodUX15 .col-md-2.border.middle .col-md-2 {
         max-width: 28em;
@@ -6365,7 +6297,10 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     /* --- Hero overlay sale CTAs --- */
     .prodUX15 .hero .copy ul,
     .prodUX15 .col-md-2.border.middle,
-    .prodUX15 .dlp.hero.static.w880 .hp-button-whitenr-ghost.btnstyle {
+    .prodUX15 .dlp.hero.static.w880 .hp-button-whitenr-ghost.btnstyle,
+    .prodUX15 .fw.table .col-md-4-table-double,
+    .prodUX15 .fw.table .col-md-4-table,
+    .prodUX15 .col-md-2.border.middle .col-md-2 {
         width: 100%
     }
     .prodUX15 .hero .cta:after {
@@ -6381,8 +6316,7 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
         margin: 0;
         max-width: 55em;
         padding: 0 1em;
-        width: 100%
-    }
+   }
     .prodUX15 .col-md-4-3 .hero .copy h1,
     .prodUX15 .col-md-4-3 .hero .copy p,
     .prodUX15 .col-md-4-3 .hero .copy a {
@@ -6437,13 +6371,6 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     .prodUX15 .mosaic.top10 .col-md-3 {
         padding: 0 .5em
     }
-    /* --- Hero headline size 27-08-15 --- */
-    .prodUX15 .hero .copy h1,
-    .prodUX15 .hero .copy h2,
-    .prodUX15 .hero .copy h3,
-    .prodUX15 .hero .copy h4 {
-        font-size: 4.4em
-    }
     .prodUX15 .mosaic.top10 .top-pick h2 .mob-no {
         display: none
     }
@@ -6487,7 +6414,12 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
         justify-content: space-between
     }
     .prodUX15 .height4em.fw.table.alt.txtimg .col-md-4-table-double .col-md-2:nth-child(3) {
-        order: 4
+        -webkit-box-ordinal-group: 4;
+        -ms-box-ordinal-group: 4;
+        -moz-box-ordinal-group: 4;
+        -ms-flex-order: 4;
+        -webkit-order: 4;
+          order: 4
     }
     /* --- Full width table overlays 18-09-15 --- */
     .prodUX15 .row.fw.table.overlays .col-md-4-table-double .copy,
@@ -7483,9 +7415,6 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     min-height: 255px;
     width: 40%
 }
-#size-guide-hub.wrap .sg-hub-content .contents .measure-advice-image.woman {
-    background-size: initial
-}
 #size-guide-hub.wrap .sg-hub-content .contents .measure-advice-image.man {
     min-height: 395px
 }
@@ -7570,14 +7499,12 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 
 /*! --- Size guide fix for double contents rule 30-06-15 --- */
 .lightbox-size-guide.lightbox .lightbox-inner .contents .contents {
-    margin-top: 0
+    margin-top: 0;
+    overflow-y: initial
 }
 .lightbox-size-guide.lightbox .lightbox-inner .contents .contents,
 .lightbox-size-guide.lightbox .lightbox-inner .contents .contents .size-information td {
     font-size: 1em!important
-}
-.lightbox-size-guide.lightbox .lightbox-inner .contents .contents {
-    overflow-y: initial
 }
 
 /*! --- Size guide hub fix for international sizing 02-07-15 --- */
@@ -9512,8 +9439,12 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
         width: 100%
     }
     .prodUX15 .col-md-4-table-double.flex .col-md-2:nth-of-type(3) {
-        order: 4;
-        -webkit-order: 4
+        -webkit-box-ordinal-group: 4;
+        -ms-box-ordinal-group: 4;
+        -moz-box-ordinal-group: 4;
+        -ms-flex-order: 4;
+        -webkit-order: 4;
+        order: 4
     }
 }
 
@@ -10291,10 +10222,20 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     .prodUX15 .module__1-image--2-columns--text-tile__border-top [class^="col-md-"] {
         float: none;
         margin-bottom: 20px;
+        -webkit-box-ordinal-group: 2;
+        -ms-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
         order: 2;
         width: 100%
     }
     .prodUX15 .module__1-image--2-columns--text-tile__border-top > .col-md-2 {
+        -webkit-box-ordinal-group: 1;
+        -ms-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
         order: 1
     }
     .prodUX15 .module__1-image--2-columns--text-tile__border-top [class*="col-md-2-text-"] {
@@ -10860,7 +10801,17 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 /* -- Wrapper for Left hand nav on mobile 14-10-16 -- */
 @media screen and (max-width:550px) {
     .prodUX15 .mobile__navigation--reverse {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
+        -webkit-box-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        -moz-box-direction: column-reverse;
+        -ms-box-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
         flex-direction: column-reverse
     }
 }
