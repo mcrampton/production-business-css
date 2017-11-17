@@ -1,7 +1,7 @@
 /* ---   
-LATEST Update: 02.11.2017
+LATEST Update: 14.11.2017
 
-- Last backup: R:\Production_2014\Stylesheet Backups\2017\mns.bizglobal.min-backups\20171102
+- Last backup: R:\Production_2014\Stylesheet Backups\2017\mns.bizglobal.min-backups\20171114
 
 ---- */
 @font-face {
@@ -13238,7 +13238,9 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     margin-bottom: 0!important
 }
 .prodUX15 [class*="rule__above-below"]:before,
-.prodUX15 [class*="rule__above-below"]:after { 
+.prodUX15 [class*="rule__above-below"]:after,
+.prodUX15 [class*="rule__above"]:before,
+.prodUX15 [class*="rule__below"]:after { 
      background:#000;
      content: "";
      display: block;
@@ -13246,6 +13248,7 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
      margin: 0 auto 24px;
      width: 35px
 }
+.prodUX15 [class*="hero"] [class*="rule__below"]:after,
 .prodUX15 [class*="hero"] [class*="rule__above-below"]:after {
      margin: 30px auto 0;
 }
@@ -13746,14 +13749,20 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
     padding: 0;
     z-index:2
 }
-.prodUX15 .dlp-skinny-split-banner-h75.img-left .no__gutter .col-md-2:last-child>div .col-md-2 {
+.prodUX15 .dlp-skinny-split-banner-h75 .no__gutter div .col-md-2 {
     outline:0
+}
+.prodUX15 .dlp-skinny-split-banner-h75 h3:not([class*="rule__above-below"]) {
+    margin: 4px 0 12px;
+    line-height: .9;
+    padding: 0.2em 0 .4em
 }
 @media screen and (max-width:1239px) {
     .prodUX15 .dlp-skinny-split-banner-h75 .no__gutter > .col-md-2 {
         height: 58px
     }
-    .prodUX15 .dlp-skinny-split-banner-h75 h3 {
+    .prodUX15 .dlp-skinny-split-banner-h75 h3,
+    .prodUX15 .dlp-skinny-split-banner-h75 h3:not([class*="rule__above-below"]) {
         line-height: .8
     }
 }
@@ -14152,6 +14161,7 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
         margin-top: 0
     }
 }
+
 /* Style and living hide link */
 @media screen and (min-width:1023px) {
    .sl__desktop_hide {
@@ -14190,4 +14200,56 @@ body.homepage .wrap.cms.latestModule.lazy[style*="lazyload"] {
 }}
 .prodUX15 [class$="lazy"] {
     background-image: none!important
+}
+/* --- Deeper skinny banner 16-11-17 --- */
+.prodUX15 .skinny-2slice-image-banner {
+    height: inherit;
+    text-align:center
+}
+.prodUX15 .skinny-2slice-image-banner > .col-md-4 {
+    width:27%
+}
+.prodUX15 .skinny-2slice-image-banner > .col-md-4:first-child  {
+    padding-left: 0
+}
+.prodUX15 .skinny-2slice-image-banner > .col-md-4:last-child  {
+    padding-right: 0
+}
+.prodUX15 .skinny-2slice-image-banner > .col-md-4 ~ .col-md-2 {
+   display:table;
+   padding: 0;
+   width:46%
+}
+.prodUX15 .skinny-2slice-image-banner > .col-md-4 ~ .col-md-2 > div {
+    display:table-cell;
+    vertical-align: middle
+}
+.prodUX15 .skinny-2slice-image-banner .hero__title--small {
+    font-size: 2.4em
+}
+
+@media screen and (max-width:1023px) {
+    .prodUX15 .skinny-2slice-image-banner .col-md-4,
+    .prodUX15 .skinny-2slice-image-banner .col-md-2 {
+        display:block;
+        margin-bottom:3em;
+        max-width:none;
+        overflow: hidden;
+        width:100%
+    }
+    .prodUX15 .skinny-2slice-image-banner .col-md-4:last-child {
+        display:none
+    }
+    .prodUX15 .skinny-2slice-image-banner > .col-md-4 ~ .col-md-2,
+    .prodUX15 .skinny-2slice-image-banner > .col-md-4 ~ .col-md-2 > div {
+        display:block;
+        overflow: hidden;
+        width:100%
+    }
+}
+@media screen and (max-width:600px) {
+    .prodUX15 .skinny-2slice-image-banner .col-md-4:first-child {
+        max-width: 600px;
+        width:100%
+    }
 }
