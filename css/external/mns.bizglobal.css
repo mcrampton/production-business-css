@@ -1,5 +1,5 @@
 /* ---   
-LATEST Update: 27.02.2018
+LATEST Update: 01.03.2018
 
 ---- */
 @font-face {
@@ -34,7 +34,6 @@ LATEST Update: 27.02.2018
 .iframewrapper .wrap.iframetemplate {
     width: 956px
 }
-
 /*! ---Generic Text Styles ---!*/
 .mnsText0 {
     color: #000
@@ -49,12 +48,6 @@ LATEST Update: 27.02.2018
 /* --- Mother's Day Red 08-02-16 ---*/
 .prodUX15 .campaign-red {
     color: #be063f
-}
-
-/*! ---Overrides Added 09-12-2013 --- */
-/*! ---Ipad copy panel fix ---!*/
-.touch .category .M080 .overlayed .copy {
-    display: block
 }
 
 /*! ---ERROR Messages icons etc --- */
@@ -84,18 +77,23 @@ LATEST Update: 27.02.2018
 }
 
 /*! ---Increasing breadcrumb visibility 19-05-14 ---!*/
+.breadcrumb li,
+.breadcrumb li a:hover,
+.product-detail-page .breadcrumb li a:hover,
+.breadcrumb li a,
+.product-detail-page .breadcrumb li a {
+    color: #000
+}
+
 .breadcrumb li a:hover,
 .product-detail-page .breadcrumb li a:hover {
-    color: #000;
     text-decoration: underline
 }
 .breadcrumb li {
-    color: #000;
     text-decoration: none
 }
 .breadcrumb li a,
 .product-detail-page .breadcrumb li a {
-    color: #000;
     float: left
 }
 .breadcrumb li:after,
@@ -185,8 +183,8 @@ LATEST Update: 27.02.2018
 @media screen and (min-width:1024px){
     .homepage .prodUX15 .no__gutter.hero__split.two.images.siw .copy {
         margin-left: 38.8%;
-        width: 54.6%;
-        margin-top: 2.5em
+        margin-top: 2.5em;
+        width: 54.6%
     }
 
     .homepage .prodUX15 .no__gutter.hero__split.two.images.siw .copy h1 {
@@ -515,14 +513,7 @@ LATEST Update: 27.02.2018
 .prodUX15 .fw.hero.no__img--mobile .copy h1,
 .prodUX15 .fw.hero.no__img--mobile .copy .hero__title--small span,
 .prodUX15 .col-md-4-3 .fw.hero.sml.center.sans.hub.no__img--mobile .copy .split.size90 span {
-    font-family: "mns-london-light", sans-serif
-}
-
-.prodUX15 .col-md-2 .overlay .copy h2,
-.prodUX15 .col-md-2 .overlay .copy h3,
-.prodUX15 .col-md-2 .overlay .copy h4 {
-    font-size: 3.6em;
-    line-height: 1
+    font-family: 'mns-london-light', sans-serif
 }
 .prodUX15 .dlp.hero.static.w880.left.sans-serif.headline-body .transparent {
     color: transparent
@@ -531,7 +522,10 @@ LATEST Update: 27.02.2018
     font-size: 6em;
     line-height: 1
 }
-.prodUX15 h2 {
+.prodUX15 h2,
+.prodUX15 .col-md-2 .overlay .copy h2,
+.prodUX15 .col-md-2 .overlay .copy h3,
+.prodUX15 .col-md-2 .overlay .copy h4 {
     font-size: 3.6em;
     line-height: 1
 }
@@ -1269,7 +1263,9 @@ LATEST Update: 27.02.2018
 .prodUX15 .centre-content .btnstyle.chev.width90 {
     width: 90%
 }
-.prodUX15 .fw.hero.static {
+.prodUX15 .fw.hero.static,
+.prodUX15 .fw.hero.static.h335,
+.prodUX15 .fw.hero.sml {
     height: auto
 }
 .prodUX15 .fw.hero.static .copy {
@@ -1433,7 +1429,8 @@ LATEST Update: 27.02.2018
 .prodUX15 .col-md-4-3 .dlp.hero.static.w880.alt .copy h1 .sub {
     font-size: 0.55em
 }
-.prodUX15 .dlp.hero.static.w880.alt.panel {
+.prodUX15 .dlp.hero.static.w880.alt.panel,
+.prodUX15 .dlp.hero.static.w880.alt.btm h2.sans {
     margin-bottom: 0
 }
 .prodUX15 .dlp.hero.static.w880.alt.panel .copy {
@@ -1449,14 +1446,8 @@ LATEST Update: 27.02.2018
     top: auto
 }
 
-/* --- 08-02-16 ---*/
-.prodUX15 .dlp.hero.static.w880.alt.btm h2.sans {
-    margin-bottom: 0
-}
-
 /* --- Hero fw.hero.static Height 335px --- */
 .prodUX15 .fw.hero.static.h335 {
-    height: auto;
     margin: 0;
     min-height: initial;
     padding: 0;
@@ -1464,9 +1455,6 @@ LATEST Update: 27.02.2018
 }
 
 /* --- Hero fw.hero.sml.center --- */
-.prodUX15 .fw.hero.sml {
-    height: auto
-}
 .prodUX15 .sml .copy {
     left: 15%;
     padding-left: 0;
@@ -1551,9 +1539,9 @@ LATEST Update: 27.02.2018
     width: 100%
 }
 .prodUX15 .hero.map.links9 .col-md-9 {
-    padding: 0;
+    height: 100%;
     margin: 0;
-    height: 100%
+    padding: 0
 }
 
 /* Full Width Hero text centred aligned bottom 14-06-16 */
@@ -1965,7 +1953,6 @@ LATEST Update: 27.02.2018
     height: 29em;
     max-height: 29.5em;
     min-height: 21em;
-    text-align: center
 }
 .prodUX15 [class^="col-md-4-table"] .col-md-2 > div {
     height: 28.8em
@@ -1998,12 +1985,21 @@ LATEST Update: 27.02.2018
 .prodUX15 .headline-serif div,
 .prodUX15 .headline-sans-serif div {
     display: block;
-    margin-bottom: 0.3em;
-    text-align: center;
+    margin-bottom: 0.3em
+}
+.prodUX15 .headline-serif div,
+.prodUX15 .headline-sans-serif div,
+.prodUX15 [class^="col-md-4-table"] .textblock div,
+.prodUX15 [class^="col-md-4-table"] .textblock .cta {
     width: 100%
 }
 .prodUX15 .textblock.h19-5 div h2 {
-    font-size: 3.6em;
+    font-size: 3.6em
+}
+.prodUX15 [class^="col-md-4-table"] .textblock,
+.prodUX15 .headline-serif div,
+.prodUX15 .headline-sans-serif div,
+.prodUX15 .textblock.h19-5 div h2 {
     text-align: center
 }
 .prodUX15 .col-md-4-3 .textblock.h19-5 div.headline-serif,
@@ -2026,19 +2022,17 @@ LATEST Update: 27.02.2018
 .prodUX15 [class^="col-md-4-table"] .textblock div {
     display: table-cell;
     padding: 0 2em;
-    vertical-align: middle;
-    width: 100%
+    vertical-align: middle
 }
 .prodUX15 [class^="col-md-4-table"] .textblock .cta {
     bottom: 0.5em;
     left: 0;
-    position: absolute;
-    width: 100%
+    position: absolute
 }
 .prodUX15 .col-md-4-table {
-    width: 24.5%;
     max-width: 29.5em;
-    padding: 0
+    padding: 0;
+    width: 24.5%
 }
 .prodUX15 .col-md-4-3 .row .col-md-4-table {
     max-width: 22em
@@ -2430,8 +2424,8 @@ LATEST Update: 27.02.2018
     margin: 0
 }
 .prodUX15 .col-md-3-table-f .col-md-3-2 {
-    padding: 0;
     max-width: 588px;
+    padding: 0;
     width: 66.72%
 }
 .prodUX15 .col-md-3-table-f .col-md-3-2 img:first-child {
@@ -2439,12 +2433,12 @@ LATEST Update: 27.02.2018
 }
 .prodUX15 .col-md-3-table-f .col-md-3 {
     background: #FFF;
-    position: relative;
     height: 58.7em;
     max-height: 58.8em;
     max-width: 293px;
     outline: 1px solid #EEE;
     padding: 3em 2em 0;
+    position: relative;
     text-align: center;
     width: 33.2%
 }
@@ -2460,8 +2454,8 @@ LATEST Update: 27.02.2018
     width: 86%
 }
 .prodUX15 .col-md-3-table-f .pullQuote img {
-    width: 60%;
-    margin: 0 auto
+    margin: 0 auto;
+    width: 60%
 }
 
 /* --- Table F full width layout ---*/
@@ -2595,10 +2589,13 @@ LATEST Update: 27.02.2018
 .prodUX15 .row.fw.table.overlays .cutout .copy a {
     height: 100%
 }
+.prodUX15 .row.fw.table.overlays .cutout .copy a,
+.prodUX15 .row.fw.table.overlays .cutout .copy .cta {
+    width: 100%
+}
 .prodUX15 .row.fw.table.overlays .cutout .copy a {
     display: block;
     text-decoration: none;
-    width: 100%;
     z-index: 999
 }
 .prodUX15 .row.fw.table.overlays .cutout .copy .cta {
@@ -2606,8 +2603,7 @@ LATEST Update: 27.02.2018
     left: 0;
     line-height: 1;
     position: absolute;
-    text-decoration: underline;
-    width: 100%
+    text-decoration: underline
 }
 .prodUX15 .row.fw.table.overlays .col-md-4-table-double .centre-content {
     display: table;
@@ -2931,9 +2927,9 @@ LATEST Update: 27.02.2018
     width: 31%
 }
 .prodUX15 .top10 .quote.cta-panel {
+    height: 20.1%;
     margin-top: 2em;
-    padding: 2em 1em;
-    height: 20.1%
+    padding: 2em 1em
 }
 .prodUX15 .top-pick:nth-child(4),
 .prodUX15 .top-pick:nth-child(7) {
@@ -2954,28 +2950,28 @@ LATEST Update: 27.02.2018
 }
 
 /* --- Top 10 no border Update for responsive flow 07-09-15 --- */
+.prodUX15 .top-picknoborder,
+.prodUX15 .centre-content.quote {
+    float: left;
+    max-width: 390px;
+    width: 31%
+}
 .prodUX15 .top-picknoborder {
     border-bottom: none;
     display: block;
-    float: left;
     height: auto;
     margin: 0 1em;
     max-height: 768px;
-    max-width: 390px;
     padding-top: 1em;
     position: relative;
-    width: 31%
 }
 .prodUX15 .centre-content.quote {
     display: table;
-    float: left;
     height: 100%;
     margin: 0 1em 1.2em;
     max-height: 53.5em;
-    max-width: 390px;
     overflow: hidden;
     padding: 4em;
-    width: 31%
 }
 .prodUX15 .top-picknoborder .quote.cta-panel {
     margin-top: 2em;
@@ -3069,8 +3065,7 @@ LATEST Update: 27.02.2018
 /* --- 2 column Large Image Left/Right with sub images 07-10-15 ---*/
 .prodUX15 .subimgs .col-md-1 {
     height: 25em;
-    margin-top: 2%;
-    text-align: center
+    margin-top: 2%
 }
 .prodUX15 .subimgs .col-md-1 h2,
 .prodUX15 .subimgs .col-md-1 h3,
@@ -3087,6 +3082,7 @@ LATEST Update: 27.02.2018
     border-right: 1px solid #FFF;
     padding-top: 32px
 }
+.prodUX15 .subimgs .col-md-1,
 .prodUX15 .row.col2LrgImgTxt .subimgs[class^="col-md-2-text-"] .cutout {
     text-align: center
 }
@@ -3312,19 +3308,20 @@ LATEST Update: 27.02.2018
     padding: 0 1em;
     width: 100%
 }
-.prodUX15 .col-md-3-table-j [class^="col-md-"] {
+.prodUX15 .col-md-3-table-j [class^="col-md-"],
+.prodUX15 .col-md-3-table-j .col-md-3 {
     margin: 0;
-    outline: 1px solid #EEE;
     padding: 0
+}
+.prodUX15 .col-md-3-table-j [class^="col-md-"] {
+    outline: 1px solid #EEE;
 }
 .prodUX15 .col-md-3-table-j .col-md-3-2 {
     max-width: 590px;
     width: 66.6%
 }
 .prodUX15 .col-md-3-table-j .col-md-3 {
-    margin: 0;
     max-width: 310px;
-    padding: 0;
     width: 33.3%
 }
 .prodUX15 .col-md-3-table-j .col-md-3:nth-child(4) {
@@ -3362,7 +3359,7 @@ LATEST Update: 27.02.2018
     width: 100%
 }
 .prodUX15 .col-md-3.col-sm-3 .textblock .centre-content p {
-    font: italic 1.8em/1.4 'mns-leeds', 'times new roman', serif;
+    font: italic 1.8em/1.4 'mns-leeds', serif;
     padding: 0 10%
 }
 .prodUX15 .col-md-3.col-sm-3 .textblock .centre-content h2,
@@ -3729,8 +3726,8 @@ LATEST Update: 27.02.2018
     letter-spacing: 1.5px;
     color: #FFF;
     font-size: 7.4em;
-    text-transform: uppercase
 }
+.prodUX15 .food-hub-tile .copy h3,
 .prodUX15 .food-hub-tile .copy p:first-of-type,
 .prodUX15 .food-hub-tile .copy p:last-of-type {
     text-transform: uppercase
@@ -3908,7 +3905,7 @@ LATEST Update: 27.02.2018
     -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    transform: rotate(-90deg)
 }
 .prodUX15 .faq-reveals .accordion .accordion-content h2 a:before {
     content: url("//asset2.cxnmarksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?&cropN=0,0.9,0.75,0&rotate=90&fmt=png-alpha&resMode=sharp2&wid=15");
@@ -3919,7 +3916,7 @@ LATEST Update: 27.02.2018
     -moz-transform: rotate(-0deg);
     -o-transform: rotate(-0deg);
     -ms-transform: rotate(-0deg);
-    transform: rotate(-0deg);
+    transform: rotate(-0deg)
 }
 
 /* --- Hero 880 x 236 with white overlay 17-12-15 --- */
@@ -4950,8 +4947,8 @@ LATEST Update: 27.02.2018
     .prodUX15 [class^="col-md-4-table"] .textblock,
     .prodUX15 .fw.table .col-md-2:first-child .textblock {
         height: calc(20em - 4vh);
-        padding: 2% 0 5%;
         min-height: inherit;
+        padding: 2% 0 5%;
         position: relative
     }
     /* --- Food hub tile 23-11-15 --- */
@@ -5285,8 +5282,8 @@ LATEST Update: 27.02.2018
     .prodUX15 .col-md-4-3 .col-md-3-table-c .col-md-3 {
         float: none;
         margin: 0;
-        max-width: 55em;
         max-height: 68em;
+        max-width: 55em;
         width: 100%
     }
     .prodUX15 .col-md-4-3 .col-md-3-table-c .col-md-3 .copy {
@@ -5586,8 +5583,7 @@ LATEST Update: 27.02.2018
     .prodUX15 .fw.table .col-md-4-table-double,
     .prodUX15 .fw.table .col-md-4-table {
         max-width: 550px;
-        padding: 0 1em;
-        width: 100%
+        padding: 0 1em
     }
     .prodUX15 .col-md-2.border.middle .col-md-2 {
         margin: 0;
@@ -5644,14 +5640,11 @@ LATEST Update: 27.02.2018
     .prodUX15 .sml .copy br {
         display: none
     }
-    /* --- Top 10 26-08-15 --- */
+    /* --- Top 10 26-08-15 --- *//* --- Top 10 triangle ---*/
     .prodUX15 .mosaic.top10 .col-md-3 {
         padding: 0 .5em
     }
-    .prodUX15 .mosaic.top10 .top-pick h2 .mob-no {
-        display: none
-    }
-    /* --- Top 10 triangle ---*/
+    .prodUX15 .mosaic.top10 .top-pick h2 .mob-no,
     .prodUX15 .top-pick p + a:after {
         display: none
     }
@@ -6573,19 +6566,16 @@ LATEST Update: 27.02.2018
     background: #FFF;
     color: #000
 }
-
 .ie9 .prodUX15 .bu-hero-split {
     position: relative;
     overflow: hidden
 }
-
 .ie9 .prodUX15 .bu-hero-split a img,
 .ie9 .prodUX15 .bu-hero-split img {
     display: block;
     float: right;
     width: 50%
 }
-
 .ie9 .prodUX15 .bu-hero-split .copy {
     height: 100%;
     left: 0;
@@ -6594,11 +6584,9 @@ LATEST Update: 27.02.2018
     top: 0;
     width: 50%
 }
-
 .ie9 .prodUX15 .bu-hero-split .copy a {
     width: 93%
 }
-
 .prodUX15 .bu-hero-split .split span {
     font-size: 0.6em
 }
@@ -6815,9 +6803,9 @@ LATEST Update: 27.02.2018
     border-bottom: 1px solid #000;
     border-top: 3px solid #000;
     clear: both;
-    position: relative;
     margin: 2em 0;
-    padding: 2em 0
+    padding: 2em 0;
+    position: relative
 }
 .prodUX15 .DeliveryMsgBanner p {
     border-bottom: 1px solid #FFF;
@@ -6923,12 +6911,13 @@ LATEST Update: 27.02.2018
 }
 
 .prodUX15 .sandl-latestnewsitem .copy a {
-    font: 0.8em 'mns-leeds', serif
+    font-size: 0.8em
 }
 .prodUX15 .sandl-item .copy,
 .prodUX15 .sandl-lfitem .copy {
     margin: 2em;
 }
+.prodUX15 .sandl-latestnewsitem .copy a,
 .prodUX15 .sandl-item .copy span,
 .prodUX15 .sandl-lfitem .copy span,
 .prodUX15 .sandl-item .copy a,
@@ -7421,8 +7410,8 @@ LATEST Update: 27.02.2018
         clear: both;
         display: block;
         max-height: 200px;
-        position: relative;
-        overflow: hidden
+        overflow: hidden;
+        position: relative
     }
 }
 
@@ -7496,18 +7485,18 @@ LATEST Update: 27.02.2018
 }
 .prodUX15 .on-page-fit-guide td,
 .prodUX15 .on-page-fit-guide th {
-    width: 4.5em;
-    text-align: center;
     border-left: 1px solid #C7C7C7;
     border-right: 1px solid #C7C7C7;
-    padding: 1em 0
+    padding: 1em 0;
+    text-align: center;
+    width: 4.5em;
 }
 .prodUX15 .on-page-fit-guide table {
     border: 1px solid #C7C7C7;
-    width: 100%;
+    font-size: 1.6em;
     margin: 0 auto;
     min-width: 900px;
-    font-size: 1.6em
+    width: 100%
 }
 .prodUX15 .on-page-fit-guide tr:nth-child(even) {
     background: #f4f4f4
@@ -7596,8 +7585,8 @@ LATEST Update: 27.02.2018
 }
 .prodUX15 [class^="col-md-"] .shop-options {
     display: inline-block;
-    position: relative;
     margin-top: 1em;
+    position: relative;
     width: 100%
 }
 .prodUX15 .hero-video div {
@@ -7798,15 +7787,7 @@ LATEST Update: 27.02.2018
 .prodUX15 .on-page-fit-guide #general-plus {
     text-align: center
 }
-.prodUX15 .on-page-fit-guide #general #clothing-type-trousers:checked + label,
-.prodUX15 .on-page-fit-guide #general #clothing-type-blazers:checked + label,
-.prodUX15 .on-page-fit-guide #general #clothing-type-general:checked + label,
-.prodUX15 .on-page-fit-guide #general-slim #clothing-type-trousers-slim:checked + label,
-.prodUX15 .on-page-fit-guide #general-slim #clothing-type-blazers-slim:checked + label,
-.prodUX15 .on-page-fit-guide #general-slim #clothing-type-general-slim:checked + label,
-.prodUX15 .on-page-fit-guide #general-plus #clothing-type-trousers-plus:checked + label,
-.prodUX15 .on-page-fit-guide #general-plus #clothing-type-blazers-plus:checked + label,
-.prodUX15 .on-page-fit-guide #general-plus #clothing-type-general-plus:checked + label {
+.prodUX15 .on-page-fit-guide input[id^="clothing-type-"]:checked + label {
     color: #CCC;
     cursor: default;
     text-decoration: none
@@ -8876,7 +8857,8 @@ LATEST Update: 27.02.2018
     width: 100%
 }
 .prodUX15 .bu-hero-split.christmas h1,
-.prodUX15 .bu-hero-split.christmas h2 {
+.prodUX15 .bu-hero-split.christmas h2,
+.prodUX15 .bu-hero-split.christmas .copy p {
     text-align: center
 }
 .prodUX15 .dlp.hero.static.w880.alt.btm.xmas .copy {
@@ -8886,9 +8868,6 @@ LATEST Update: 27.02.2018
     max-width: 1180px;
     padding: 0;
     width: 95%
-}
-.prodUX15 .bu-hero-split.christmas .copy p {
-    text-align: center
 }
 .prodUX15 .bu-hero-split.christmas .copy a {
     color: #000;
@@ -9503,7 +9482,8 @@ LATEST Update: 27.02.2018
         padding: 0 5%;
         width: 97%!important
     }
-    .prodUX15 .module__1-image--2-columns--text-tile__border-top [class*="col-md-2-text-"] .centre-content {
+    .prodUX15 .module__1-image--2-columns--text-tile__border-top [class*="col-md-2-text-"] .centre-content,
+    .prodUX15 .module__5-image--1-largetall--4-square-opt4 .col-md-2 > a {
         height: auto
     }
     .prodUX15 .bu-hero-split.christmas a img {
@@ -9515,21 +9495,19 @@ LATEST Update: 27.02.2018
 
     .prodUX15 .col-md-3.offset-3.copyblock,
     .prodUX15 .col-md-2.offset-6.copyblock .col-md-2 {
-        margin: 0;
-        width: 100%
+        margin: 0
     }
     .prodUX15 .col-md-3.offset-3.copyblock {
-        max-width: 800px;
+        max-width: 800px
     }
     .prodUX15 .col-md-2.offset-6.copyblock .col-md-2 {
         max-width: 380px;
-        padding: 0;
+        padding: 0
     }
     .prodUX15 .offset-1.copyblock {
         float: none;
         margin: 0 auto;
-        max-width: 440px;
-        width: 100%
+        max-width: 440px
     }
     .prodUX15 .offset-1.copyblock .col-md-4 {
         display: block
@@ -9538,11 +9516,16 @@ LATEST Update: 27.02.2018
     .prodUX15 .col-md-2.offset-6.copyblock .col-md-2:nth-child(2) {
         float: none;
         margin: 0 auto;
-        max-width: 380px;
-        width: 100%
+        max-width: 380px
     }
-    .prodUX15 .module__5-image--1-largetall--4-square-opt4 .col-md-2 > a {
-        height: auto;
+    .prodUX15 .col-md-3.offset-3.copyblock,
+    .prodUX15 .col-md-2.offset-6.copyblock .col-md-2,
+    .prodUX15 .offset-1.copyblock,
+    .prodUX15 .module__5-image--1-largetall--4-square-opt4 .col-md-2 > a,
+    .prodUX15 .dlp.hero.static.w880.alt.btm.xmas .copy [class*="height"],
+    .prodUX15 .col-md-4-3 .dlp.hero.static.w880.alt.btm .copy [class*="height"],
+    .prodUX15 .col-md-2.offset-6.copyblock .col-md-2:nth-child(1),
+    .prodUX15 .col-md-2.offset-6.copyblock .col-md-2:nth-child(2) {
         width: 100%
     }
     .prodUX15 .dlp.hero.static.w880.alt.btm.xmas {
@@ -9553,7 +9536,6 @@ LATEST Update: 27.02.2018
         display: none;
         height: 0;
         left: 0;
-        width: 100%
     }
     .prodUX15 .module__5-image--1-largetall--4-square-opt2.standard > .col-md-2 {
         padding: 0 5px
@@ -9901,11 +9883,11 @@ LATEST Update: 27.02.2018
     -moz-border-radius: 50%;
     border-radius: 50%
 }
-.prodUX15 .search__option-two:before {
-    content: "2"
-}
 .prodUX15 .search__option-one:before {
     content: "1"
+}
+.prodUX15 .search__option-two:before {
+    content: "2"
 }
 
 @media screen and (max-width:600px) and (min-width:417px) {
@@ -10227,16 +10209,15 @@ LATEST Update: 27.02.2018
     font-size: 2.4em
 }
 .prodUX15 * .text__panel--grey {
-    background: #EEE;
     min-height: 30px;
     padding: 10% 2em 4%;
-    text-align: center
 }
 .prodUX15 .text__panel--grey.padding-20px,
 .prodUX15 .hero__wine-club ~ .two-column-dividing-rule .centre-content.image .copy,
 .prodUX15 .two-column-callout-panels .col-md-2 div {
     padding: 2em
 }
+.prodUX15 * .text__panel--grey,
 .prodUX15 .two-column-callout-panels .col-md-2 div {
     background: #EEE;
     text-align: center
@@ -11309,48 +11290,7 @@ LATEST Update: 27.02.2018
         letter-spacing: 1px
     }
 }
-/* Search results Modal */
-.prodUX15 .showImgModal {
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    display: none;
-    height: 100%;
-    left: 0;
-    margin:0;
-    overflow: auto;
-    padding-top: 5%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1005
-}
 
-/* Modal Content */
-.prodUX15 .showImgModal-content {
-    background-color: #fefefe;
-    border: 1px solid #888;
-    height: calc(100vh - 200px);
-    margin: auto;
-    overflow: hidden;
-    overflow-y: visible;
-    padding: 20px;
-    transition: all 0.1s linear;
-    width: 80%
-}
-
-/* The Close Button */
-.prodUX15 .showImgModal-content .close {
-    color: #666;
-    float: right;
-    font-size: 28px
-}
-
-.prodUX15 .showImgModal-content .close:hover,
-.prodUX15 .showImgModal-content .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer
-}
 /* Everywear split hero centred text */
 @media screen and (max-width:1023px) {
     .prodUX15 .no__gutter.hero__split.two.images.sml.sans.hub.no__img--mobile>.col-md-2~.col-md-2, 
@@ -11813,11 +11753,7 @@ LATEST Update: 27.02.2018
     position: absolute;
     text-align: center;
     top: 0;
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box
+    width: 100%
 }
 .plp__banner--SS17 .copy h1 {
     font-size: 3em;
@@ -12203,7 +12139,7 @@ LATEST Update: 27.02.2018
 .plp__banner--SS17.gold h1 {
     background: none;
     color: #FDEB97;
-    font-size: 3em;
+    font-size: 3em
 }
 /* Christmas soft launch hero 2017 */
 .prodUX15 .col-md-4-3 .dlp.hero.christmas17 {
@@ -12341,15 +12277,6 @@ LATEST Update: 27.02.2018
     height: 31px!important;
     width: 31px!important
 }
-.prodUX15 .has-dropcap-gold::first-letter {
-  color: #d3ad5a;
-  float: left;
-  font-size: 6em;
-  font-family: "mns-london-bold", sans-serif!important;
-  line-height: 50px;
-  margin: 7px 5px 1px 0;
-  text-transform: uppercase
-}
 .prodUX15 .no__gutter.hero__split.two.images.siw.h442 .col-md-2:first-child {
     height: 43.2em
 }
@@ -12374,10 +12301,10 @@ LATEST Update: 27.02.2018
 .prodUX15 .skinny-2slice-image-banner > .col-md-4 {
     width:27%
 }
-.prodUX15 .skinny-2slice-image-banner > .col-md-4:first-child  {
+.prodUX15 .skinny-2slice-image-banner > .col-md-4:first-child {
     padding-left: 0
 }
-.prodUX15 .skinny-2slice-image-banner > .col-md-4:last-child  {
+.prodUX15 .skinny-2slice-image-banner > .col-md-4:last-child {
     padding-right: 0
 }
 .prodUX15 .skinny-2slice-image-banner > .col-md-4 ~ .col-md-2 {
@@ -12487,7 +12414,6 @@ LATEST Update: 27.02.2018
     -ms-transform: rotate(24deg);
     transform: rotate(24deg)
 }
-
 .prodUX15 .sale-sizes .disabled a:after {
     right: 0;
     -webkit-transform: rotate(-24deg);
@@ -12496,7 +12422,6 @@ LATEST Update: 27.02.2018
     -ms-transform: rotate(-24deg);
     transform: rotate(-24deg)
 }
-
 .prodUX15 .sale-sizes .disabled a:before, .prodUX15 .sale-sizes .disabled a:after {
     background-color: #9F9F9F;
     content: "";
@@ -12566,7 +12491,6 @@ LATEST Update: 27.02.2018
     overflow:hidden;
     width: 51%
 }
-
 .prodUX15 .choose__location label {
     direction: ltr;
     display:block;
@@ -12574,7 +12498,6 @@ LATEST Update: 27.02.2018
     line-height:0;
     text-indent: -9999px
 }
-
 .prodUX15 .choose__location select {
     background: url(//asset2.cxnmarksandspencer.com/is/image/mands/e6a6b3083878a0edb91d4daab837136812faaaed?fmt=png-alpha) no-repeat 80% 50% #FFF;
     border: 0;
@@ -12656,9 +12579,9 @@ LATEST Update: 27.02.2018
         border-right: 2px solid #EFEFEF
     }
     .prodUX15 .sale-sizes.alt .col-md-4 {
+        bottom: 12%;
         padding: 0 .2em 0 2em;
         position: absolute;
-        bottom: 12%;
         right: 0
     }
 }
@@ -12685,14 +12608,13 @@ LATEST Update: 27.02.2018
 }
 /* Recipe icons 28-12-17 */
 .wf-icon, .wf-icon:hover {
-
     font-family: nw-icons;
-    speak: none;
     font-style: normal;
-    font-weight: 400;
     font-variant: normal;
-    text-transform: none;
+    font-weight: 400;
     line-height: 1;
+    speak: none;
+    text-transform: none;
     -webkit-font-smoothing: antialiased
 }
 /* Footer match FEAR look 03-01-18 */
@@ -12703,7 +12625,6 @@ LATEST Update: 27.02.2018
     margin-bottom: 1rem;
     text-transform: uppercase
 }
-
 .footer-navigation .sector-nav ul:before,
 .footer-navigation .sector-nav ul li:after {
     border-top: 1px solid #CCC;
@@ -12761,12 +12682,10 @@ footer .footer-toolbar .contact .fielditem .email-input {
     padding-right:0;
     width:68%
 }
-
 footer .footer-toolbar .contact .fielditem {
     padding-left: 30px;
     width: 100%
 }
-
 footer .footer-toolbar .contact form {
     float: none;
     overflow: hidden;
@@ -12786,15 +12705,16 @@ footer .footer-toolbar .contact form {
 }
 @media screen and (max-width:1023px) {
     .footer-toolbar .box.g6,
-    .footer-toolbar .social-media-links>ul  {
+    .footer-toolbar .social-media-links>ul {
         float: none!important;
-        margin:0 auto;
         padding-bottom:2em;
         width: 25rem
     }
     .footer-toolbar .g12 {
         display:none
     }
+    .footer-toolbar .box.g6,
+    .footer-toolbar .social-media-links>ul,
     .footer-toolbar .g6,
     .footer-toolbar .g6:last-child,
     .footer-toolbar .social-media-links {
@@ -12853,7 +12773,6 @@ footer .footer-toolbar .contact form {
    .touch .footer-navigation .g4:last-child {
        width:92%
    }
-
 }
 @media screen and (max-width: 600px) {
     footer .messages input[type=email] {
@@ -12935,14 +12854,14 @@ footer .footer-toolbar .contact form {
 .prodUX15 .no__gutter [class*="col-md-"] [class^="tile__style"].black--fill .copy a:after {
     content:none
 }
-.prodUX15 .everywear__lockup {
+.prodUX15 .everywear__lockup,
+.prodUX15 .no__gutter [class*="col-md-"] [class^="tile__style"].black--fill .copy {
     text-align: center
 }
 .prodUX15 .no__gutter [class*="col-md-"] [class^="tile__style"].black--fill .copy {
     background: #000;
     margin: 0;
-    padding: .834em 0;
-    text-align: center
+    padding: .834em 0
 }
 .prodUX15 .no__gutter.mobile--slide [class*="col-md-"] {
     padding:0
@@ -12959,14 +12878,13 @@ footer .footer-toolbar .contact form {
 }
 .prodUX15 .no__gutter [class*="col-md-"] [class^="tile__style"].black--fill .copy .chev:after {
     background: url(//asset2.cxnmarksandspencer.com/is/image/mands/23a41f42a203ae3800ef736ed3388168b12e94e6?fmt=png-alpha&wid=14&op_invert=1) no-repeat scroll transparent;
-    content: "";
-    width: 20px;
-    height: 15px;
-    display: inline-block;
     background-position: 5px -1px;
-    vertical-align: sub
+    content: "";
+    display: inline-block;
+    height: 15px;
+    vertical-align: sub;
+    width: 20px
 }
-
 @media screen and (max-width: 767px) {
     .prodUX15 .row .mobile--slide .contents,
     .prodUX15 .row .mobile--slide .col-md-4,
